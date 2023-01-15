@@ -1,58 +1,93 @@
-from controllers.search import GPTSearcher
-from loguru import logger
 import random
-from utils.text import get_text_topk
-from utils.processing import post_processing
+from loguru import logger
+import configs
+from controllers.search import GPTSearcher
+from utils.text import get_text_topk, pharaphase_result, post_processing
+from utils.common import listComplementElements
 
 
-with open("context/expects/general.txt", "r") as f:
-        EXPECTIONS_DEFAULT = [exp.replace("\n", "") for exp in f.readlines()]
-
-with open("context/expects/general_special.txt", "r") as f:
-        SPECIAL_EXPECTIONS_DEFAULT = [exp.replace("\n", "") for exp in  f.readlines()]
-
-def generate_expection(expections):
-    summary_wish= ["Chúc <NAME>"]
+def generate_expection(exp_vocab,  expections, anomalous_level = False):
     r_expection = ""
     _expections = []
+
+    if anomalous_level:
+        post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL_1>"
+    else:
+        post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL>"
+    
     for expection in expections:
-        expection_results = get_text_topk(expection, EXPECTIONS_DEFAULT, 3)
-        print(random.sample(expection_results, 1)[-1][0])
-        _expections.extend(random.sample(expection_results, 1)[-1][0])
-    print(_expections)
-    if _expections == []:
-        _expections = random.sample(EXPECTIONS_DEFAULT, 3)
-    r_expection = ", ".join(_expections[:-1])
-    r_expection += " và " + _expections[-1]
-    r_expection += f". {random.sample(summary_wish, 1)[-1]} " + random.sample(SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
+        expection_results = get_text_topk(expection, exp_vocab, 3)
+        expection_results = listComplementElements(expection_results, _expections)
+        _expections.extend([random.sample(expection_results, 1)[-1][0]])
+    
+    if _expections == [] or len(_expections) < 3:
+        _expections.extend(random.sample(exp_vocab, 3 - len(_expections)))
+
+    unique_expections = list(set(_expections))
+    r_expection = ", ".join(unique_expections[:-1])
+    r_expection += " và " + unique_expections[-1]
+    r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
     return r_expection
 
 
     
 
 def generate_backup(name, level, expections):
-    TETWISH_BACKUP_LIST = []
+   
+    pre_sentence = ["Tết đến xuân về, ", "2023 đã đến, ", "Nhân dịp đầu xuân, ", "Đầu xuân năm mới, ", "Năm mới đến rồi, ", "Nhân dịp đầu năm mới, ", "Đầu năm, ", "Đầu xuân, ", "Nhân dịp đầu xuân năm mới, ", "Nhân dịp Tết đến xuân sang, "]
+    result = ""
+    own_level = [""]
+    vocab = []
+    wish_tet_list = []
+    try:
+        if level == 'bạn':
+            own_level.extend(["mình", "tớ", "tui", "tôi"])
+            wish_tet_list = configs.FRIEND_BACKUP_LIST
+        
+        elif level in ['anh', 'chị']:
+            own_level.extend(["em"])
+            name = f"{level} {name}"
+            wish_tet_list = configs.ANH_CHI_BACKUP_LIST
+
+        elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
+            name = f"{level} {name}"
+            own_level.extend(["cháu"])
+            wish_tet_list =  configs.COCHU_BACKUP_LIST   
+
+        elif level in ['bố', 'mẹ']:
+            wish_tet_list =  configs.BO_ME_BACKUP_LIST
+            name = level
+            own_level.extend(["con"])
+            if level == 'bố':
+                vocab = [
+                "ngày càng phong độ hơn",
+                "làm ăn phát tài hơn",
+                "kiếm được thật nhiều tiền"
+                ]
+            else:
+                vocab = [
+                "hạnh phúc ngập tràn",
+                "tươi trẻ hơn",
+                "ngày càng khỏe mạnh hơn",
+                "luôn luôn tươi trẻ",
+                "hạnh phúc bên bố và các con"
+                ]
+       
+        r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
+        wish_tet_list = random.choice(wish_tet_list)
+        wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
+        
+    except Exception as e:
+        logger.error(e)
+        r_expection = generate_expection(
+            expections = expections,
+            exp_vocab= configs.EXPECTIONS_DEFAULT + vocab,
+            anomalous_level = True)
+        wish_tet_list = random.choice(configs.BACKUP_LIST)
+        wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
     
-    if level == 'bạn':
-        with open("context/friend/sample_wish_tet.txt", "r") as f:
-            TETWISH_BACKUP_LIST = f.readlines()
-    
-    if level == 'anh' or level == 'chị':
-        name = f"{level} {name}"
-        with open("context/anh_chi/sample.txt", "r") as f:
-            TETWISH_BACKUP_LIST = f.readlines()
-
-    if level == 'cô' or level == 'dì'  or level == 'chú'  or level == 'bác' or level == 'thím' or level == 'mợ'  or level == 'cậu':
-        name = f"{level} {name}"
-        with open("context/co_di_chu_bac/sample.txt", "r") as f:
-            TETWISH_BACKUP_LIST = f.readlines()
-
-    result = random.choice(TETWISH_BACKUP_LIST)
-
-    r_expection = generate_expection(expections)
-    result = result.replace("<EXPECT>", r_expection)
-
-    result = result.replace("<NAME>", name)
+    pharaphased_result = pharaphase_result(wish_tet_result, name, level, own_level, r_expection)
+    result = post_processing(pharaphased_result)
     return result
 
 
@@ -86,6 +121,7 @@ class TetWishGenerator:
             result = self.searcher.search(query_text = question_query)
         
         except Exception as e:
+            logger.error(e)
             # generate results backup 
             result = generate_backup(name, level, expections)
             

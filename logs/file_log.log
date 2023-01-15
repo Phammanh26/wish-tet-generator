@@ -685,3 +685,885 @@
 2023-01-15 12:20:25.778 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
 2023-01-15 12:20:28.181 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
 2023-01-15 12:20:28.186 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: y, ê, u,  , đ, ờ, i, g, ặ, t,  , h, á, i,  , n, h, i, ề, u,  , t, h, à, n, h,  , c, ô, n, g, g, i, à, u,  , c và ó. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 16:47:29.882 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 16:47:48.791 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 16:47:48.798 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: y, ê, u,  , đ, ờ, i,  , n, h, i, ề, u,  , h, ơ, n, h, ọ, c,  , h, à, n, h,  , g, i, ỏ, i,  , r, a, n và g. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 16:51:13.534 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 16:51:14.684 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 16:51:14.688 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và tràn đầy niềm vui. Chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 16:57:30.700 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 16:57:30.707 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và học hành giỏi rang. Chúc <NAME> vạn sự bình an 
+2023-01-15 16:57:51.876 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 16:57:51.888 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui và yêu đời nhiều hơn. Chúc <NAME> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 16:59:00.918 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 16:59:00.929 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn và tràn đầy niềm vui. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:00:53.502 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:05:53.589 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:06:03.616 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:06:03.621 | INFO     | controllers.generate:_generate_query:87 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn và yêu đời nhiều hơn. Chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:07:33.348 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:07:35.789 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:07:38.884 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:07:53.582 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:07:54.622 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:08:04.533 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:08:05.214 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:08:16.258 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:08:18.009 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:08:31.306 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:08:32.173 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:08:32.182 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: giàu có, hạnh phúc ngập tràn, bình an và học hành giỏi rang. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 17:09:08.558 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:09:09.966 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:09:09.975 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc, gặt hái nhiều thành công và tràn đầy niềm vui. Chúc <NAME> đẹp trai, phong độ hơn 
+2023-01-15 17:09:28.981 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:09:28.990 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời, tràn đầy niềm vui và an lành. Chúc <NAME> tươi trẻ hơn 
+2023-01-15 17:09:34.085 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:09:34.096 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặt hái nhiều thành công, gặp nhiều may mắn và tràn đầy niềm vui. Chúc <NAME> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 17:09:50.624 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:09:50.636 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, luôn luôn yêu đời và học hành giỏi rang. Chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 17:09:56.289 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:09:56.299 | INFO     | controllers.generate:_generate_query:90 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: mọi chuyện suôn sẻ, yêu đời nhiều hơn và tràn đầy niềm vui. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 17:21:20.796 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:22:54.927 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:22:58.161 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:22:58.165 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, hạnh phúc ngập tràn và yêu đời nhiều hơn. Chúc <NAME> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 17:24:19.889 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:24:19.899 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: mọi chuyện suôn sẻ, yêu đời nhiều hơn và tràn đầy niềm vui. Chúc <NAME> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 17:25:21.109 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:25:32.802 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:25:33.696 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:25:33.702 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: mọi chuyện suôn sẻ, yêu đời nhiều hơn và tràn đầy niềm vui. Chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:26:45.395 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:27:15.899 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:27:16.910 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:27:16.915 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, kiếm được thật nhiều tiền và gặt hái nhiều thành công. Đặc biệt, chúc <NAME> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 17:27:28.965 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, tài giỏi
+2023-01-15 17:27:28.973 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, gặp nhiều may mắn và sức khỏe dồi dào. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:27:54.967 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:27:54.978 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, an lành và luôn luôn yêu đời. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:29:32.925 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:29:32.940 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, yêu đời nhiều hơn và hạnh phúc ngập tràn. Đặc biệt, chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:30:40.392 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:31:27.466 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:32:05.159 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:32:48.669 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:32:48.673 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, yêu đời nhiều hơn và giàu có. Đặc biệt, chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 17:34:03.026 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:03.040 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: giàu có, hạnh phúc ngập tràn và an lành. Đặc biệt, chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:34:18.731 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:18.740 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc, kiếm được thật nhiều tiền và hạnh phúc ngập tràn. Đặc biệt, chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 17:34:27.692 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:27.699 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặt hái nhiều thành công, học hành giỏi rang và luôn luôn yêu đời. Đặc biệt, chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 17:34:30.636 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:30.644 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: giàu có, gặp nhiều may mắn và yêu đời nhiều hơn. Đặc biệt, chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 17:34:35.490 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:35.498 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, gặp nhiều may mắn và gặt hái nhiều thành công. Đặc biệt, chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 17:34:37.828 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:37.835 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: mọi chuyện suôn sẻ, yêu đời nhiều hơn và thuận lợi trong công việc. Đặc biệt, chúc <NAME> vạn sự bình an 
+2023-01-15 17:34:38.721 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:38.742 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời, thuận lợi trong công việc và gặp nhiều may mắn. Đặc biệt, chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 17:34:40.309 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:34:40.320 | INFO     | controllers.generate:_generate_query:92 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, hạnh phúc ngập tràn và an lành. Đặc biệt, chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 17:41:17.971 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:41:20.876 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:20.879 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, an lành và luôn luôn yêu đời. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:41:46.764 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:46.779 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an, kiếm được thật nhiều tiền và hạnh phúc ngập tràn. Đặc biệt, chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:41:53.380 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:53.388 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời, hạnh phúc ngập tràn và gặt hái nhiều thành công. Đặc biệt, chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:41:56.409 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:56.417 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, thuận lợi trong công việc và yêu đời nhiều hơn. Đặc biệt, chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:41:58.138 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:58.145 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: mọi chuyện suôn sẻ, gặt hái nhiều thành công và luôn luôn yêu đời. Đặc biệt, chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:41:59.300 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:59.308 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, giàu có và bình an. Đặc biệt, chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:41:59.533 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:59.541 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, an lành và luôn luôn yêu đời. Đặc biệt, chúc <NAME> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 17:41:59.698 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:59.706 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui, an lành và gặp nhiều may mắn. Đặc biệt, chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 17:41:59.841 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:41:59.848 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, yêu đời nhiều hơn và kiếm được thật nhiều tiền. Đặc biệt, chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 17:42:00.026 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.033 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, thuận lợi trong công việc và gặp nhiều may mắn. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:42:00.157 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.167 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, gặp nhiều may mắn và luôn luôn yêu đời. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:42:00.324 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.331 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, an lành và gặt hái nhiều thành công. Đặc biệt, chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 17:42:00.476 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.484 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, thuận lợi trong công việc và luôn luôn yêu đời. Đặc biệt, chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 17:42:00.623 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.631 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an, gặp nhiều may mắn và tràn đầy niềm vui. Đặc biệt, chúc <NAME> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 17:42:00.773 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:00.782 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, gặp nhiều may mắn và kiếm được thật nhiều tiền. Đặc biệt, chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 17:42:10.070 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:10.077 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, mọi chuyện suôn sẻ và bình an. Đặc biệt, chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:42:54.726 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:42:56.700 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:42:56.708 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, luôn luôn yêu đời và giàu có. Đặc biệt, chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 17:43:01.838 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:43:01.845 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: kiếm được thật nhiều tiền, bình an và hạnh phúc ngập tràn. Đặc biệt, chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:43:27.085 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:43:27.115 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, mọi chuyện suôn sẻ và luôn luôn yêu đời. Đặc biệt, chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 17:43:58.325 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:43:59.475 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:43:59.484 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc, yêu đời nhiều hơn và hạnh phúc ngập tràn. Đặc biệt, chúc <LEVEL> xinh gái hơn 
+2023-01-15 17:44:03.906 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:44:03.914 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui, yêu đời nhiều hơn và gặt hái nhiều thành công. Đặc biệt, chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:44:07.092 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:44:07.102 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, an lành và gặp nhiều may mắn. Đặc biệt, chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:44:10.739 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:44:10.743 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặp nhiều may mắn, thuận lợi trong công việc và an lành. Đặc biệt, chúc <LEVEL> xinh gái hơn 
+2023-01-15 17:44:12.707 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:44:12.714 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, mọi chuyện suôn sẻ và yêu đời nhiều hơn. Đặc biệt, chúc <LEVEL> đẹp trai, phong độ hơn 
+2023-01-15 17:44:20.806 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = đẹp trai, yêu đời
+2023-01-15 17:44:20.837 | INFO     | controllers.generate:_generate_query:105 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, gặt hái nhiều thành công và kiếm được thật nhiều tiền. Đặc biệt, chúc <LEVEL> vạn sự bình an 
+2023-01-15 17:49:28.647 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:51:10.587 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:52:49.259 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:53:01.112 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = đẹp trai, yêu đời
+2023-01-15 17:53:01.119 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: yêu đời nhiều hơn, gặp nhiều may mắn và công việc làm ăn thuận lợi. Đặc biệt, chúc <LEVEL> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 17:53:25.312 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:53:42.459 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:53:43.453 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = đẹp trai, yêu đời
+2023-01-15 17:53:43.461 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: gặp nhiều may mắn, hạnh phúc ngập tràn và gặt hái nhiều thành công. Đặc biệt, chúc <LEVEL> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 17:53:56.354 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = đẹp trai, yêu đời
+2023-01-15 17:53:56.373 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: hạnh phúc ngập tràn, xinh đẹp và vui vẻ và an lành. Đặc biệt, chúc <LEVEL> tươi trẻ hơn 
+2023-01-15 17:54:20.714 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = đẹp trai, yêu đời
+2023-01-15 17:54:20.751 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: an khang thịnh vượng, sức khoẻ dồi dào, hạnh phúc ngập tràn và mọi chuyện suôn sẻ. Đặc biệt, chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:54:54.316 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = đẹp trai, yêu đời
+2023-01-15 17:54:54.331 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: thuận lợi trong công việc, công việc làm ăn thuận lợi và gặp nhiều may mắn. Đặc biệt, chúc <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 17:55:22.094 | INFO     | main:tet_generate:32 - Request: name = hướng, level = bố, expections = phong độ, yêu đời
+2023-01-15 17:55:22.106 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới hướng. Những mong muốn của hướng: công việc làm ăn thuận lợi, yêu đời nhiều hơn và tràn đầy niềm vui. Đặc biệt, chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 17:56:20.487 | INFO     | main:tet_generate:32 - Request: name = Tân, level = anh, expections = giàu có, đẹp trai
+2023-01-15 17:56:20.503 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Tân. Những mong muốn của Tân: an khang thịnh vượng, sức khoẻ dồi dào, công việc làm ăn thuận lợi và bình an. Đặc biệt, chúc <LEVEL> vạn sự bình an 
+2023-01-15 17:57:12.989 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, đẹp trai
+2023-01-15 17:57:13.000 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: luôn luôn yêu đời, ngày càng phong độ và công việc làm ăn thuận lợi. Đặc biệt, chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 17:57:40.524 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 17:57:40.540 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, sức khỏe dồi dào và giàu có. Đặc biệt, chúc <LEVEL> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 17:58:10.134 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 17:58:11.362 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 17:58:11.372 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: luôn luôn yêu đời, ngày càng phong độ và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 17:58:21.864 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 17:58:21.883 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: hạnh phúc ngập tràn, an khang thịnh vượng, sức khoẻ dồi dào và giàu có. Đặc biệt, chúc <LEVEL> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 18:00:41.945 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:00:43.575 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:00:43.589 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặp nhiều may mắn, ngày càng phong độ và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 18:00:51.647 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:00:51.672 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, đẹp trai, phong độ hơn và kiếm được thật nhiều tiền. Đặc biệt, chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:00:54.183 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:00:54.200 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: càng ngày càng trẻ trung, an khang thịnh vượng, sức khoẻ dồi dào và đẹp trai, phong độ hơn. Đặc biệt, chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 18:00:54.323 | ERROR    | controllers.generate:generate_backup:80 - Sample larger than population or is negative
+2023-01-15 18:01:50.342 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:50.358 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: hạnh phúc ngập tràn, gặt hái nhiều thành công và ngày càng phong độ. Đặc biệt, chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 18:01:51.112 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:51.127 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: đẹp trai, phong độ hơn, an khang thịnh vượng, sức khoẻ dồi dào và ngày càng phong độ. Đặc biệt, chúc <LEVEL> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 18:01:51.811 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:51.824 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, an khang thịnh vượng, sức khoẻ dồi dào và công việc làm ăn thuận lợi. Đặc biệt, chúc <LEVEL> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 18:01:52.608 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:52.623 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, ngày càng phong độ và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 18:01:53.306 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:53.321 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, giàu có và gặt hái nhiều thành công. Đặc biệt, chúc <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 18:01:54.093 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:54.109 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: bình an, giàu có và gặt hái nhiều thành công. Đặc biệt, chúc <LEVEL> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 18:01:54.709 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:54.721 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: công việc làm ăn thuận lợi, an khang thịnh vượng, sức khoẻ dồi dào và càng ngày càng trẻ trung. Đặc biệt, chúc <LEVEL> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 18:01:55.409 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:55.424 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, gặt hái nhiều thành công và xinh đẹp và vui vẻ. Đặc biệt, chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:01:56.076 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:56.090 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: tràn đầy niềm vui, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 18:01:56.727 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:56.744 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: an khang thịnh vượng, sức khoẻ dồi dào, giàu có và yêu đời nhiều hơn. Đặc biệt, chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:01:57.359 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:57.372 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: an khang thịnh vượng, sức khoẻ dồi dào, sức khỏe dồi dào và giàu có. Đặc biệt, chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:01:58.212 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:58.987 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:59.001 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: xinh gái hơn, an khang thịnh vượng, sức khoẻ dồi dào và ngày càng phong độ. Đặc biệt, chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:01:59.881 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:01:59.895 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: đẹp trai, phong độ hơn, ngày càng phong độ và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:02:01.254 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:01.269 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, giàu có và ngày càng phong độ. Đặc biệt, chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 18:02:03.170 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:03.183 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, tràn đầy niềm vui và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:02:03.889 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:03.903 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, ngày càng phong độ và kiếm được thật nhiều tiền. Đặc biệt, chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:02:07.378 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:07.390 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: luôn luôn yêu đời, ngày càng phong độ và an khang thịnh vượng, sức khoẻ dồi dào. Đặc biệt, chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:02:10.093 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:10.106 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặp nhiều may mắn, ngày càng phong độ và kiếm được thật nhiều tiền. Đặc biệt, chúc <LEVEL> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 18:02:11.695 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:02:11.708 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, càng ngày càng trẻ trung và yêu đời nhiều hơn. Đặc biệt, chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 18:03:23.857 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:03:59.588 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:04:08.390 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:05:10.514 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:05:15.970 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:05:15.977 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, an khang thịnh vượng, sức khoẻ dồi dào và an lành. <LINKING_WORD> chúc <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 18:05:16.077 | ERROR    | controllers.generate:generate_backup:80 - Sample larger than population or is negative
+2023-01-15 18:05:35.859 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:05:35.876 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: yêu đời nhiều hơn, gặt hái nhiều thành công và càng ngày càng trẻ trung. <LINKING_WORD> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:06:28.834 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:07:36.343 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:07:59.681 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:08:16.860 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:08:24.111 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:08:25.492 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:08:25.504 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, gặp nhiều may mắn và ngày càng phong độ. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 18:08:29.360 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:08:29.374 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, an lành và ngày càng phong độ. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:08:31.190 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:08:31.204 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, hạnh phúc ngập tràn và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:08:51.926 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:09:28.057 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:09:30.354 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:30.359 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: tràn đầy niềm vui, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:09:32.526 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:32.543 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, ngày càng phong độ và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:09:34.340 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:34.354 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, bình an và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:09:35.468 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:35.482 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: càng ngày càng trẻ trung, gặt hái nhiều thành công và sức khỏe dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:09:36.334 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:36.346 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: đẹp trai, phong độ hơn, ngày càng phong độ và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 18:09:37.091 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:41.122 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:41.135 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, ngày càng phong độ và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 18:09:41.886 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:42.423 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:09:42.440 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: an lành, giàu có và gặt hái nhiều thành công. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:09:42.515 | ERROR    | controllers.generate:generate_backup:85 - Sample larger than population or is negative
+2023-01-15 18:12:05.452 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:12:07.277 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:07.290 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:12:07.998 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:08.026 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: sức khỏe dồi dào, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 18:12:08.647 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:08.659 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, mọi chuyện suôn sẻ và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 18:12:09.113 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:09.125 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:12:09.528 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:09.541 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 18:12:09.996 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:10.009 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 18:12:10.427 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:10.440 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, công việc làm ăn thuận lợi và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:12:10.847 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:10.860 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, gặt hái nhiều thành công và đẹp trai, phong độ hơn. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 18:12:11.231 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:11.244 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, càng ngày càng trẻ trung và hạnh phúc ngập tràn. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 18:12:11.662 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:11.675 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: hạnh phúc ngập tràn, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 18:12:12.194 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:12.208 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, công việc làm ăn thuận lợi và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 18:12:12.698 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:12.710 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và tươi trẻ hơn. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:12:14.013 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:14.030 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-15 18:12:14.812 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:14.827 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, thuận lợi trong công việc và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:12:15.342 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:15.347 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 18:12:16.062 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:16.074 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, giàu có và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:12:17.681 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:17.694 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: tràn đầy niềm vui, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:12:18.387 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:18.400 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: công việc làm ăn thuận lợi, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 18:12:19.174 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:19.187 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: bình an, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 18:12:19.790 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:19.805 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: xinh đẹp và vui vẻ, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:12:20.460 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:20.475 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, công việc làm ăn thuận lợi và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:12:21.014 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:21.021 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 18:12:21.389 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:21.403 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, xinh đẹp và vui vẻ và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 18:12:21.610 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:21.625 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 18:12:21.820 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:21.833 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, đẹp trai, phong độ hơn và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-15 18:12:22.545 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:22.557 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, gặp nhiều may mắn và gặt hái nhiều thành công. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 18:12:22.741 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:22.754 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:12:23.226 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:23.245 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: đẹp trai, phong độ hơn, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:12:24.179 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:24.197 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, xinh gái hơn và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 18:12:24.946 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:24.960 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và mọi chuyện suôn sẻ. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 18:12:25.797 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:25.810 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và an lành. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 18:12:26.574 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:26.587 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: thuận lợi trong công việc, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:12:27.214 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:27.226 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, công việc làm ăn thuận lợi và gặt hái nhiều thành công. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-15 18:12:27.761 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:27.778 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 18:12:29.710 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:29.723 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, xinh gái hơn và gặt hái nhiều thành công. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:12:32.779 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:32.795 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 18:12:33.796 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:33.808 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: công việc làm ăn thuận lợi, giàu có và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> đạt được những mục tiêu đề ra trong năm mới 
+2023-01-15 18:12:35.198 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:35.212 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, càng ngày càng trẻ trung và sức khỏe dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 18:12:36.328 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:36.341 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, xinh gái hơn và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 18:12:36.999 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:37.013 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: ngày càng phong độ, kiếm được thật nhiều tiền và sức khỏe dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:12:37.832 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:37.845 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặt hái nhiều thành công, càng ngày càng trẻ trung và yêu đời nhiều hơn. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 18:12:48.303 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:12:48.320 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, công việc làm ăn thuận lợi và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-15 18:13:02.885 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:13:02.898 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: kiếm được thật nhiều tiền, bình an và giàu có. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 18:13:05.385 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = bố, expections = giàu có, khoẻ mạnh
+2023-01-15 18:13:05.398 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: gặp nhiều may mắn, càng ngày càng trẻ trung và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> vạn sự bình an 
+2023-01-15 18:13:08.723 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:13:08.740 | INFO     | controllers.generate:_generate_query:121 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: giàu có, an khang thịnh vượng, sức khoẻ dồi dào và tươi trẻ hơn. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 18:13:08.795 | ERROR    | controllers.generate:generate_backup:85 - list index out of range
+2023-01-15 18:13:27.969 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:13:30.401 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:13:30.411 | INFO     | controllers.generate:_generate_query:127 - Generated query: Tạo câu chúc Tết tới Hướng. Những mong muốn của Hướng: càng ngày càng trẻ trung, gặt hái nhiều thành công và xinh đẹp và vui vẻ. <LINKING_WORD> <OWN_LEVEL> chúc <LEVEL> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 18:15:37.934 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:16:52.575 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:19:29.577 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:20:19.443 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:23:07.437 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:07.440 | ERROR    | controllers.generate:generate_backup:95 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 18:23:33.627 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:23:34.489 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:42.115 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:45.727 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:46.896 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:50.579 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:51.560 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:23:55.373 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:24:09.747 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:24:47.599 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:24:50.945 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:25:02.135 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:25:03.326 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:25:32.381 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:11.440 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:12.861 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:13.711 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:32.925 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:27:50.397 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:27:51.872 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:53.766 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:54.966 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:56.357 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:57.419 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:27:59.375 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:02.122 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:03.791 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:05.889 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:07.158 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:08.448 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:09.580 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:28:11.103 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:18.137 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:29:19.196 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:27.261 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:41.804 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:29:45.838 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:29:47.135 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:49.743 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:51.511 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:53.225 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:29:54.994 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:30:04.929 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:30:05.475 | INFO     | main:tet_generate:32 - Request: name = Hướng, level = mẹ, expections = giàu có, khoẻ mạnh
+2023-01-15 18:30:11.545 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = giàu có, khoẻ mạnh
+2023-01-15 18:30:15.399 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = giàu có, khoẻ mạnh
+2023-01-15 18:30:23.641 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:30:36.753 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:30:52.135 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:30:52.998 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:30:58.812 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:31:01.124 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:31:02.904 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:31:04.344 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:31:54.056 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:31:58.815 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:32:03.469 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:32:04.581 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:32:07.329 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:32:10.421 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:32:11.725 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:32:32.416 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:32:33.928 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:22.633 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 18:33:24.324 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:28.036 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:36.027 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:39.653 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:40.509 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:52.330 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:53.316 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:54.105 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:54.707 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:55.542 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:56.223 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:56.842 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:57.391 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:33:59.922 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 18:34:01.895 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 19:06:49.173 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = thăng tiến trong công việc
+2023-01-15 19:26:16.914 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 19:34:05.235 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 19:34:30.502 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = Vui vẻ, tốt
+2023-01-15 19:34:43.504 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:10.401 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:14.478 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:16.107 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:17.245 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:17.757 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:17.977 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.111 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.295 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.463 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.651 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.795 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:18.980 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:19.148 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:19.318 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:19.501 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:19.679 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:19.853 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:20.064 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:35:20.248 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:36:11.717 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 19:37:50.646 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = chú, expections = kinh doanh buôn bán tốt
+2023-01-15 19:39:03.248 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:04.077 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:04.700 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:05.226 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:05.942 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:06.561 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:07.242 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:08.170 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:09.037 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:10.133 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:11.359 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:12.772 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:13.656 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:14.422 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:15.469 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:16.274 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:18.178 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:19.058 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:19.672 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:20.441 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:21.061 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:21.689 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 19:39:22.839 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:05:30.304 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = chú, expections = kinh doanh buôn bán tốt
+2023-01-15 21:46:56.556 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:47:27.413 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:48:11.082 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:48:23.224 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:48:44.336 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:49:26.776 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:28.944 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:29.444 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:29.811 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:30.007 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:30.469 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:30.636 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:49:30.812 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:50:24.646 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:50:35.876 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:50:54.207 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:06.451 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:27.052 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:51:28.782 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:42.726 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:51:50.625 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:51.941 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:54.007 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:54.790 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:51:55.355 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 21:52:42.414 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:52:50.580 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:52:55.364 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:53:08.082 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:56:24.113 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:56:28.626 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:56:36.591 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:56:44.044 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 21:58:20.046 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:05:15.203 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:05:23.199 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:05:38.752 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:05:54.138 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:05:54.139 | ERROR    | controllers.generate:generate:121 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:12.885 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:06:14.567 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:14.568 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:32.382 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:06:35.268 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:35.269 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:39.825 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:39.826 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:45.503 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:45.504 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:46.319 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:46.320 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:47.152 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:47.152 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:47.796 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:47.796 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:48.308 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:48.308 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:48.884 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:48.885 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:49.398 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:49.398 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:06:49.782 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:06:49.783 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:07:22.440 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:07:24.965 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = anh, expections = thăng chức giám đốc
+2023-01-15 22:07:24.966 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:07:43.436 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:07:43.438 | ERROR    | controllers.generate:generate:120 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:07:43.439 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:08:48.418 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:08:56.553 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:08:56.554 | ERROR    | controllers.generate:generate:121 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:09:26.030 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:09:26.781 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:09:26.782 | ERROR    | controllers.generate:generate:122 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:10:02.855 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:10:03.632 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:10:03.632 | ERROR    | controllers.generate:generate:122 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:10:03.633 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:10:04.475 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:10:04.475 | ERROR    | controllers.generate:generate:122 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:10:04.476 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:10:07.523 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:10:07.523 | ERROR    | controllers.generate:generate:122 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:10:07.524 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:11:48.849 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:11:59.841 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:12:27.196 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:12:30.245 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:12:30.246 | ERROR    | controllers.generate:generate:119 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:12:30.246 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:13:04.626 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:13:07.169 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:13:07.171 | ERROR    | controllers.generate:generate:119 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:13:07.175 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:13:13.236 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:13:22.024 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:13:22.627 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:13:22.627 | ERROR    | controllers.generate:generate:119 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:13:22.628 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:13:45.310 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:13:47.312 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:13:47.312 | ERROR    | controllers.generate:generate:119 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:13:47.313 | ERROR    | controllers.generate:generate_backup:80 - list index out of range
+2023-01-15 22:16:06.420 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:16:08.993 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:16:08.993 | ERROR    | controllers.generate:generate:118 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:16:39.846 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:16:46.831 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:16:48.673 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:16:48.674 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:16:48.678 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:17:11.545 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:17:15.067 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:17:15.926 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:17:15.927 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:17:15.936 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:17:42.895 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:17:44.177 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:17:44.180 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:17:44.187 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:18:01.659 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:18:01.666 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:18:01.678 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:18:06.678 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:18:06.679 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:18:06.688 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:18:28.770 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:18:28.772 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:18:28.792 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:18:50.569 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:18:50.572 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:18:50.602 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:20:20.487 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:20:20.490 | ERROR    | controllers.generate:generate:116 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:20:20.495 | ERROR    | controllers.generate:generate_backup:77 - list index out of range
+2023-01-15 22:21:13.482 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:21:14.172 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:14.173 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:14.182 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:16.247 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:16.248 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:16.261 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:17.315 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:17.316 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:17.325 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:20.185 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:20.185 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:20.195 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:22.045 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:22.045 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:22.054 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:23.699 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:23.700 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:23.709 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:24.702 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:24.703 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:24.711 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:25.881 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:25.882 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:25.891 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:27.339 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:27.339 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:27.348 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:39.451 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:39.453 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:39.465 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:40.502 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:40.502 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:40.507 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:43.849 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:43.849 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:43.858 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:45.231 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:45.231 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:45.241 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:46.482 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:46.483 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:46.491 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:47.600 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:47.601 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:47.612 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:48.968 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:48.969 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:48.983 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:50.563 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:50.563 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:50.567 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:51.980 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:51.981 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:52.000 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:53.532 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:53.533 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:53.542 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:55.132 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:55.133 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:55.143 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:21:57.783 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:21:57.784 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:21:57.794 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:00.573 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:00.574 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:00.578 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:03.910 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:03.910 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:03.922 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:05.971 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:05.972 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:05.980 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:07.492 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:07.493 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:07.502 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:12.467 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:12.468 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:12.476 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:13.281 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:13.282 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:13.290 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:13.956 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:13.957 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:13.966 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:14.565 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:14.566 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:14.574 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:22:23.148 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:22:23.150 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:22:23.174 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:23:03.366 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:23:03.370 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:23:03.391 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:23:06.688 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:23:06.688 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:23:06.700 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:06.540 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:06.544 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:06.551 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:08.418 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:08.418 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:08.426 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:18.249 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:24:19.517 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:19.517 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:19.522 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:20.654 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:20.655 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:20.668 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:21.567 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:21.568 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:21.580 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:25.200 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:25.201 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:25.210 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:26.819 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:26.820 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:26.837 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:27.324 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:27.325 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:27.337 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:27.883 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = em, expections = thăng chức giám đốc
+2023-01-15 22:24:27.884 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:27.894 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:45.690 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:24:45.691 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:45.700 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:48.582 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:24:48.582 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:48.591 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:51.793 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:24:51.793 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:51.798 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:24:52.801 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:24:52.802 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:24:52.813 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:25:38.292 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:25:40.844 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:25:43.394 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:25:52.720 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:25:52.721 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:25:52.728 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:25:58.223 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:25:58.225 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:25:58.235 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:25:59.167 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = cháu, expections = thăng chức giám đốc
+2023-01-15 22:25:59.168 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:25:59.180 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:09.107 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:09.109 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:09.118 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:14.005 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:14.005 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:14.018 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:15.934 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:15.935 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:15.947 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:16.604 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:16.605 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:16.624 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:17.133 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:17.134 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:17.142 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:17.632 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:17.632 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:17.644 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:18.330 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:18.331 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:18.339 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:36.625 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:26:37.418 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:37.419 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:37.422 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:38.520 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:38.520 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:38.528 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:39.118 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:39.118 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:39.127 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:39.867 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:39.867 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:39.880 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:40.918 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:40.919 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:40.928 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:41.439 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:41.439 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:41.448 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:42.466 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:42.467 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:42.475 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:42.983 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:42.983 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:42.991 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:43.420 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:43.420 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:43.429 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:43.884 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:43.885 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:43.898 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:44.854 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:44.854 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:44.865 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:46.273 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:46.274 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:46.282 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:50.167 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:50.168 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:50.177 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:26:54.354 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:26:54.355 | ERROR    | controllers.generate:generate:117 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:26:54.364 | ERROR    | controllers.generate:generate_backup:78 - list index out of range
+2023-01-15 22:27:36.790 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:29:14.134 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:29:19.660 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:29:19.665 | ERROR    | controllers.generate:generate:115 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:29:19.670 | ERROR    | controllers.generate:generate_backup:76 - list index out of range
+2023-01-15 22:29:21.976 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:29:21.977 | ERROR    | controllers.generate:generate:115 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:29:21.986 | ERROR    | controllers.generate:generate_backup:76 - list index out of range
+2023-01-15 22:30:31.847 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:31:01.692 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:31:04.285 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:04.286 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:04.290 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:07.154 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:07.154 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:07.158 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:09.222 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:09.223 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:09.228 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:10.924 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:10.925 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:10.935 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:11.661 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:11.661 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:11.666 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:12.142 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:31:12.142 | ERROR    | controllers.generate:generate:125 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:31:12.149 | ERROR    | controllers.generate:generate_backup:82 - list index out of range
+2023-01-15 22:31:20.308 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:31:58.533 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-15 22:32:01.427 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:32:01.428 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:01.436 | ERROR    | controllers.generate:generate_backup:81 - list index out of range
+2023-01-15 22:32:03.058 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = má, expections = thăng chức giám đốc
+2023-01-15 22:32:03.058 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:03.079 | ERROR    | controllers.generate:generate_backup:81 - list index out of range
+2023-01-15 22:32:07.637 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:07.637 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:19.647 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:19.648 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:20.928 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:20.929 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:23.223 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:23.223 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:24.277 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:24.277 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:25.460 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:25.464 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:31.431 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bố, expections = thăng chức giám đốc
+2023-01-15 22:32:31.432 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:37.782 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bạn, expections = thăng chức giám đốc
+2023-01-15 22:32:37.782 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:44.676 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bạn, expections = thăng chức giám đốc
+2023-01-15 22:32:44.677 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-15 22:32:55.936 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bạn, expections = thăng chức giám đốc
+2023-01-15 22:32:55.939 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'

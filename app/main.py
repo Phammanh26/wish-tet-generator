@@ -2,7 +2,6 @@
 from controllers.generate import TetWishGenerator
 
 # UTILS
-from utils.logutil import log_results
 import configs
 from loguru import logger
 
@@ -32,4 +31,7 @@ def tet_generate(name: str,  level: str, expections: str):
     logger.info(f"Request: name = {name}, level = {level}, expections = {expections}")
     expections = expections.split(",")
     generated_results = tetwish_generator.generate(name, level, expections)
-    return {"results": generated_results}
+    return {
+        "name": name,
+        "level": level,
+        "wish_tet": generated_results}

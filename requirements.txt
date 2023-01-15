@@ -1,6 +1,7 @@
 # ---- COMMON --- 
 python-dotenv
 fuzzywuzzy
+numpy
 
 # ---- API --- 
 requests
