@@ -1,0 +1,4 @@
+Kính chúc <NAME> một năm mới <EXPECT>
+Chúc mừng năm mới <NAME>. Cháu chúc <NAME> có một năm <EXPECT>!
+Chúc mừng năm mới <NAME> nhá! Chúc <NAME> có một năm <EXPECT> :)))
+Năm mới đến rồi, chúc <NAME> có một năm <EXPECT>!

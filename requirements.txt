@@ -1,0 +1,11 @@
+# ---- COMMON --- 
+python-dotenv
+fuzzywuzzy
+
+# ---- API --- 
+requests
+
+# ---- SERVER --- 
+fastapi
+uvicorn
+loguru

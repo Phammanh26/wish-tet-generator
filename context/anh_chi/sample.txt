@@ -1,0 +1,11 @@
+Chúc mừng năm mới <NAME>. Em chúc <NAME> có một năm <EXPECT>!
+Chúc mừng năm mới <NAME> nhá! Chúc <NAME> có một năm <EXPECT> :)))
+Năm mới đến rồi, chúc <NAME> có một năm <EXPECT>!
+Chúc mừng Năm mới ^_^, chúc <NAME> có một năm <EXPECT>!
+Năm mới chúc <NAME> có một năm <EXPECT>!
+Nhân dịp năm mới, chú <NAME> có một năm <EXPECT>, Happy new year ^_^
+Năm mới, chúc <NAME> <EXPECT> Happy new year ^_^
+Chúc <NAME> có một Năm Mới <EXPECT> ^_^
+Năm mới vui vẻ nhé <NAME>, em chúc <NAME> có một năm <EXPECT> :))
+Năm mới em chúc <NAME> của em có một năm <EXPECT>. Chúc <NAME> ăn Tết vẻ vui ^_^
+Năm mới em <NAME> bạn có một năm <EXPECT>. Ăn Tết vui vẻ nhé <NAME> ^_^

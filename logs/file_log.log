@@ -1,0 +1,687 @@
+2023-01-07 18:18:31.510 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết anh Đại. Thông tin của anh Đại: anh ấy mong kiếm được nhiều tiền, có nhiều người yêu 
+2023-01-07 18:20:16.471 | INFO     | main:create:25 - Request: name = anh Đại, context = anh ấy mong kiếm được nhiều tiền, có nhiều người yêu
+2023-01-07 18:20:16.472 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết anh Đại. Thông tin của anh Đại: anh ấy mong kiếm được nhiều tiền, có nhiều người yêu 
+2023-01-07 18:23:15.586 | INFO     | main:create:25 - Request: name = em Phong, context = đang làm BA, mong muốn trở một BA nghiệp dư
+2023-01-07 18:23:15.587 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong. Thông tin của em Phong: đang làm BA, mong muốn trở một BA nghiệp dư 
+2023-01-07 18:24:35.322 | INFO     | main:create:25 - Request: name = em Phong, context = đang làm BA, em chưa có người yêu, mong muốn trở một BA nghiệp dư
+2023-01-07 18:24:35.323 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong. Thông tin của em Phong: đang làm BA, em chưa có người yêu, mong muốn trở một BA nghiệp dư 
+2023-01-07 18:26:09.681 | INFO     | main:create:25 - Request: name = em Phong, context = đang làm ba, em chưa có người yêu, mong muốn trở một BA nghiệp dư
+2023-01-07 18:26:09.682 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong. Thông tin của em Phong: đang làm ba, em chưa có người yêu, mong muốn trở một BA nghiệp dư 
+2023-01-07 18:27:43.130 | INFO     | main:create:25 - Request: name = em Phong, context = em phong là người trăng hoa, hứng thù với thú dâm
+2023-01-07 18:27:43.130 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong. Thông tin của em Phong: em phong là người trăng hoa, hứng thù với thú dâm 
+2023-01-07 18:29:05.814 | INFO     | main:create:25 - Request: name = em Phong, context = em phong là người trăng hoa, hứng thù với thú dâm
+2023-01-07 18:29:05.815 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong cho năm nay. Thông tin của em Phong: em phong là người trăng hoa, hứng thù với thú dâm 
+2023-01-07 18:30:18.411 | INFO     | main:create:25 - Request: name = em Phong, context = em phong là người thú vị, thích chó mèo đặc biệt là anime
+2023-01-07 18:30:18.412 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong cho năm nay. Thông tin của em Phong: em phong là người thú vị, thích chó mèo đặc biệt là anime 
+2023-01-07 18:31:39.200 | INFO     | main:create:25 - Request: name = em Phong, context = em phong mong muốn có nhiều mèo đặc biệt là anime
+2023-01-07 18:31:39.201 | INFO     | controllers.generate:_generate_query:87 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em Phong cho năm nay. Thông tin của em Phong: em phong mong muốn có nhiều mèo đặc biệt là anime 
+2023-01-07 18:36:53.447 | INFO     | main:create:25 - Request: name = em phong, context = là một sinh viên fpt, đang đi làm BA
+2023-01-07 18:36:53.448 | INFO     | controllers.generate:_generate_query:88 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em phong cho năm nay. Thông tin của em phong: là một sinh viên fpt, đang đi làm BA. em phong mong muốn: giàu cóvà  có người yêu 
+2023-01-07 18:38:32.552 | INFO     | main:create:25 - Request: name = em phong, context = là một sinh viên fpt, đang đi làm BA
+2023-01-07 18:38:32.554 | INFO     | controllers.generate:_generate_query:88 - Generated question: Năm nay - năm 2023 là năm Quý Mão, hay còn gọi là con Mèo.. Tạo một lời chúc ngày Tết em phong cho năm nay. Thông tin của em phong: là một sinh viên fpt, đang đi làm BA. em phong mong muốn: giàu có và  có người yêu 
+2023-01-07 18:41:45.528 | INFO     | main:create:25 - Request: name = em phong, context = là một sinh viên fpt, đang đi làm BA
+2023-01-07 18:41:45.529 | INFO     | controllers.generate:_generate_query:88 - Generated question: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết em phong cho năm nay. Thông tin của em phong: là một sinh viên fpt, đang đi làm BA. em phong mong muốn: giàu có và  có người yêu 
+2023-01-07 18:43:30.474 | INFO     | main:create:25 - Request: name = em Phong, context = là một sinh viên fpt, đang đi làm BA
+2023-01-07 18:43:30.478 | INFO     | controllers.generate:_generate_query:88 - Generated question: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết em Phong cho năm nay. Thông tin của em Phong: là một sinh viên fpt, đang đi làm BA. em Phong mong muốn: giàu có và  có người yêu 
+2023-01-08 08:53:16.783 | INFO     | main:create:38 - Request: question = Which of the following is a benefit of using vectorized pandas UDFs instead of the standard Pyspark UDFs?, answers = A. The vectorized pandas UDFs process data in memory rather than splitting to task., B. The vectorized pandas UDFS allow for the use of type hints.,C. The vectorized pandas UDFS allow for pandas API use inside of the function., D. The vectorized pandas UDFS work on distributed Dataframes, E. The vectorized pandas UDFS process data in batches rather than one row at the time.
+2023-01-08 08:55:00.906 | INFO     | main:create:38 - Request: question = Which of the following is a benefit of using vectorized pandas UDFs instead of the standard Pyspark UDFs?, answers = A. The vectorized pandas UDFs process data in memory rather than splitting to task., B. The vectorized pandas UDFS allow for the use of type hints.,C. The vectorized pandas UDFS allow for pandas API use inside of the function., D. The vectorized pandas UDFS work on distributed Dataframes, E. The vectorized pandas UDFS process data in batches rather than one row at the time.
+2023-01-08 08:55:00.907 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. The vectorized pandas UDFs process data in memory rather than splitting to task.', ' B. The vectorized pandas UDFS allow for the use of type hints.', 'C. The vectorized pandas UDFS allow for pandas API use inside of the function.', ' D. The vectorized pandas UDFS work on distributed Dataframes', ' E. The vectorized pandas UDFS process data in batches rather than one row at the time.'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 09:08:06.390 | INFO     | main:explain:39 - Request: question = Which of the following is a benefit of using vectorized pandas UDFs instead of the standard Pyspark UDFs?, answers = A. The vectorized pandas UDFs process data in memory rather than splitting to task., B. The vectorized pandas UDFS allow for the use of type hints.,C. The vectorized pandas UDFS allow for pandas API use inside of the function., D. The vectorized pandas UDFS work on distributed Dataframes, E. The vectorized pandas UDFS process data in batches rather than one row at the time.
+2023-01-08 09:08:06.391 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. The vectorized pandas UDFs process data in memory rather than splitting to task.', ' B. The vectorized pandas UDFS allow for the use of type hints.', 'C. The vectorized pandas UDFS allow for pandas API use inside of the function.', ' D. The vectorized pandas UDFS work on distributed Dataframes', ' E. The vectorized pandas UDFS process data in batches rather than one row at the time.'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 09:15:27.128 | INFO     | main:explain:39 - Request: question = "A data scientist has been given an incomplete notebook from the data engieering teams. The notebook use a Spark DataFrame spark_df on which the data scientist needs to perform further feature engineering. Unfortunately, the data scientist has not yet learned the Pyspark DataFrame API, Which of the following blocks of code can the data scientist nun to be able to use the. Pandas API on Spark:", answers = A. PyTorch, B. Keras, C. Pandas, D. Spark ML, E. Scikit-learn
+2023-01-08 09:15:27.130 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. PyTorch', ' B. Keras', ' C. Pandas', ' D. Spark ML', ' E. Scikit-learn'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 09:26:30.403 | INFO     | main:explain:39 - Request: question = A data scientist has written a data cleaning notebook that ultiliizes the padnas library but that collegue has suggest that the they refactor their notebook to scale with big data  Which of the following approaches can the data scientist take to scale with big data?, answers = A. They can refactor their notebook to use Spark SQL,B. They can refactor their notebook to utilize the pandas API on Spark, C. They can refactor their notebook to process the data in parallel, D. They can refactor their notebook to use the Scala Dataset API, E. They can refactor their notebook to use the PySpark DataFrame
+2023-01-08 09:26:30.405 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. They can refactor their notebook to use Spark SQL', 'B. They can refactor their notebook to utilize the pandas API on Spark', ' C. They can refactor their notebook to process the data in parallel', ' D. They can refactor their notebook to use the Scala Dataset API', ' E. They can refactor their notebook to use the PySpark DataFrame'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 11:38:13.619 | INFO     | main:edu:39 - Request: question = How do should do clear about transformer in deep leaning?, answers = transformer
+2023-01-08 11:38:13.620 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['transformer'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 11:45:29.412 | INFO     | main:explain:53 - Request: question = How do should do clear about transformer in deep leaning?
+2023-01-08 11:45:29.413 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: How do should do clear about transformer in deep leaning?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 12:02:01.997 | INFO     | main:explain:53 - Request: question = recommend some document, blog for learn transformer
+2023-01-08 12:02:02.002 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: recommend some document, blog for learn transformer, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 13:33:51.324 | INFO     | main:create:31 - Request: name = em Nghĩa, context = học công nghệ thông tin, đã có người yêu
+2023-01-08 13:33:51.331 | INFO     | controllers.generate:_generate_query:122 - Generated question: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết em Nghĩa cho năm nay. Thông tin của em Nghĩa: học công nghệ thông tin, đã có người yêu. em Nghĩa mong muốn: tốt nghiệp 
+2023-01-08 13:35:24.830 | INFO     | main:create:31 - Request: name = em Nghĩa, context = chưa có người yêu
+2023-01-08 13:35:24.833 | INFO     | controllers.generate:_generate_query:122 - Generated question: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết em Nghĩa cho năm nay. Thông tin của em Nghĩa: chưa có người yêu. em Nghĩa mong muốn: tốt nghiệp 
+2023-01-08 14:19:34.680 | INFO     | main:gen_quest:46 - Request: question = what is your name?
+2023-01-08 14:19:34.681 | INFO     | controllers.generate:_generate_query:32 - Generated question: what is your name? . Please help me create new question with same this topic question's 
+2023-01-08 14:19:52.415 | INFO     | main:gen_quest:55 - Error: [Errno 2] No such file or directory: 'logs/gen_ai//gen_question.txt' | Request: question = what is your name?
+2023-01-08 14:20:50.083 | INFO     | main:gen_quest:46 - Request: question = what is your name?
+2023-01-08 14:20:50.084 | INFO     | controllers.generate:_generate_query:32 - Generated question: what is your name? . Please help me create new question with same this topic question's 
+2023-01-08 14:21:56.586 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:21:56.587 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:21:56.587 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:21:56.588 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:06.764 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:06.765 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:06.765 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:06.766 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:12.037 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:12.037 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:12.038 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:22:12.038 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:17.039 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:21.094 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:27.038 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:29.906 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:29.907 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:29.907 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 14:24:29.908 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 16:27:01.220 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 16:27:01.221 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 16:27:01.221 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 16:27:01.221 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 16:27:03.169 | INFO     | main:edu:64 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?, answers = A. One-hot encoding categorical features,	B. Imputing missing feature values with the mean,	C. Creating binary indicator features for missing,	D.Target encoding categorical features,	E. Imputing missing feature values with the true median
+2023-01-08 16:27:03.170 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. One-hot encoding categorical features', '\tB. Imputing missing feature values with the mean', '\tC. Creating binary indicator features for missing', '\tD.Target encoding categorical features', '\tE. Imputing missing feature values with the true median'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:12:06.809 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:12:06.810 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:12:06.811 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:12:06.811 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:12:28.059 | INFO     | main:edu:64 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?, answers = A. One-hot encoding categorical features,	B. Imputing missing feature values with the mean,	C. Creating binary indicator features for missing,	D.Target encoding categorical features,	E. Imputing missing feature values with the true median
+2023-01-08 17:12:28.061 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. One-hot encoding categorical features', '\tB. Imputing missing feature values with the mean', '\tC. Creating binary indicator features for missing', '\tD.Target encoding categorical features', '\tE. Imputing missing feature values with the true median'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:13:49.502 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:13:49.503 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:13:49.503 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:13:49.504 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:13:52.403 | INFO     | main:edu:64 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?, answers = A. One-hot encoding categorical features,	B. Imputing missing feature values with the mean,	C. Creating binary indicator features for missing,	D.Target encoding categorical features,	E. Imputing missing feature values with the true median
+2023-01-08 17:13:52.403 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A. One-hot encoding categorical features', '\tB. Imputing missing feature values with the mean', '\tC. Creating binary indicator features for missing', '\tD.Target encoding categorical features', '\tE. Imputing missing feature values with the true median'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:16:16.183 | INFO     | main:gen_quest:48 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution? 
+2023-01-08 17:16:16.186 | INFO     | controllers.generate:_generate_query:33 - Generated question: I have a question:  'A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?  '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-08 17:17:39.887 | INFO     | main:gen_quest:48 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution? 
+2023-01-08 17:17:39.888 | INFO     | controllers.generate:_generate_query:33 - Generated question: I have a question:  'A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?  '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-08 17:20:38.907 | INFO     | main:edu:64 - Request: question = Which of the following feature engineering tasks is likely to be the least efficient to distribute when a machine learning engineer is trying to scale a machine learning pipeline by distributing the feature engineering process?, answers = A) One-hot encoding of categorical variables, B) Normalization of numerical variables,C) Imputation of missing values,D) Generation of new features through feature crosses,E) Feature selection through statistical testing
+2023-01-08 17:20:38.909 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A) One-hot encoding of categorical variables', ' B) Normalization of numerical variables', 'C) Imputation of missing values', 'D) Generation of new features through feature crosses', 'E) Feature selection through statistical testing'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:21:54.083 | INFO     | main:edu:64 - Request: question = Which of the following feature engineering tasks is likely to be the least efficient to distribute when a machine learning engineer is trying to scale a machine learning pipeline by distributing the feature engineering process?, answers = A) One-hot encoding of categorical variables, B) Normalization of numerical variables,C) Imputation of missing values,D) Generation of new features through feature crosses,E) Feature selection through statistical testing
+2023-01-08 17:21:54.085 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['A) One-hot encoding of categorical variables', ' B) Normalization of numerical variables', 'C) Imputation of missing values', 'D) Generation of new features through feature crosses', 'E) Feature selection through statistical testing'], Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:23:03.160 | INFO     | main:gen_quest:48 - Request: question = A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution? 
+2023-01-08 17:23:03.161 | INFO     | controllers.generate:_generate_query:33 - Generated question: I have a question:  'A machine learning engineer is trying to scale a machine learning pipeline by distributing is feature engineering process.   Which of the following feature engineering tasks will be the least efficient to distribution?  '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-08 17:24:49.751 | INFO     | main:explain:77 - Request: question = Which of the following feature engineering tasks is likely to be the least efficient to distribute when a machine learning engineer is attempting to scale a machine learning pipeline by distributing the feature engineering process?\n\nA) One-hot encoding categorical variables\nB) Standardizing numerical variables\nC) Generating polynomial features\nD) Imputing missing values\nE) Performing natural language processing on text data
+2023-01-08 17:24:49.753 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Which of the following feature engineering tasks is likely to be the least efficient to distribute when a machine learning engineer is attempting to scale a machine learning pipeline by distributing the feature engineering process?\n\nA) One-hot encoding categorical variables\nB) Standardizing numerical variables\nC) Generating polynomial features\nD) Imputing missing values\nE) Performing natural language processing on text data, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:28:06.770 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:28:06.771 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:28:06.771 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:28:06.772 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:39:08.623 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:39:08.624 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:39:08.624 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:39:08.624 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 17:39:53.824 | INFO     | main:explain:77 - Request: question = Concept chính của machine learning gồm những gì?
+2023-01-08 17:39:53.825 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Concept chính của machine learning gồm những gì?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:41:38.370 | INFO     | main:explain:77 - Request: question = Hàm loss trong machine learning dùng để làm gì?
+2023-01-08 17:41:38.372 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Hàm loss trong machine learning dùng để làm gì?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:44:36.214 | INFO     | main:explain:77 - Request: question = Để hiểu và thực hiện một bài toán sử dụng machine learning tôi cần những bước nào?
+2023-01-08 17:44:36.216 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Để hiểu và thực hiện một bài toán sử dụng machine learning tôi cần những bước nào?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:48:36.633 | INFO     | main:explain:77 - Request: question = Model trong machine learning được tối ưu bằng cách nào?
+2023-01-08 17:48:36.635 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Model trong machine learning được tối ưu bằng cách nào?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:50:36.715 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 17:51:18.295 | INFO     | main:explain:77 - Request: question = what components have a machine learning model?
+2023-01-08 17:51:18.297 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what components have a machine learning model?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 17:53:28.157 | INFO     | main:explain:77 - Request: question = what is Machine learning?
+2023-01-08 17:53:28.161 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is Machine learning?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 18:12:13.355 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 18:12:13.356 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 18:12:13.356 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 18:12:13.357 | INFO     | controllers.search:setup:16 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-08 18:12:49.095 | INFO     | main:explain:77 - Request: question = Khi một ai đó bất ngờ với công nghệ mà tôi đang ứng dụng tôi nên trả lời như thế nào?
+2023-01-08 18:12:49.096 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Khi một ai đó bất ngờ với công nghệ mà tôi đang ứng dụng tôi nên trả lời như thế nào?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 18:14:49.217 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 18:15:13.366 | INFO     | main:explain:77 - Request: question = Khi một ai đó bất ngờ với công nghệ mà tôi đang ứng dụng tôi nên trả lời như thế nào?
+2023-01-08 18:15:13.367 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Khi một ai đó bất ngờ với công nghệ mà tôi đang ứng dụng tôi nên trả lời như thế nào?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 18:17:13.438 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 18:22:09.809 | INFO     | main:explain:77 - Request: question = cơ chế attention hoạt động như nào?
+2023-01-08 18:22:09.813 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: cơ chế attention hoạt động như nào?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 18:24:09.898 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 18:56:02.930 | INFO     | main:explain:77 - Request: question = Difference between gpt-3 and chatgpt?
+2023-01-08 18:56:02.934 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Difference between gpt-3 and chatgpt?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 19:03:28.651 | INFO     | main:explain:77 - Request: question = can fine turning ChatGPT?
+2023-01-08 19:03:28.655 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: can fine turning ChatGPT?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 19:09:25.067 | INFO     | main:explain:77 - Request: question = how i can fine turning chatgpt?
+2023-01-08 19:09:25.070 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: how i can fine turning chatgpt?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 19:44:36.140 | INFO     | main:explain:77 - Request: question = encoder trong transformer?
+2023-01-08 19:44:36.143 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: encoder trong transformer?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 19:50:50.356 | INFO     | main:explain:77 - Request: question = khác nhau giữa attention và self attention?
+2023-01-08 19:50:50.359 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: khác nhau giữa attention và self attention?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 19:52:50.427 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 19:53:03.522 | INFO     | main:explain:77 - Request: question = difference giữa attention and self attention?
+2023-01-08 19:53:03.525 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: difference giữa attention and self attention?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 21:41:47.130 | INFO     | main:explain:77 - Request: question = chatgpt and transformer have related to?
+2023-01-08 21:41:47.138 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: chatgpt and transformer have related to?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 21:52:11.798 | INFO     | main:explain:77 - Request: question = What is the drawback of inserting crossValidator at the end of ml pipeline instead of inserting the pipeline in the CrossValidator estimator?
+2023-01-08 21:52:11.803 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: What is the drawback of inserting crossValidator at the end of ml pipeline instead of inserting the pipeline in the CrossValidator estimator?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 21:54:11.884 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-08 21:54:27.896 | INFO     | main:explain:77 - Request: question = What is the drawback of inserting crossValidator at the end of ml pipeline instead of inserting the pipeline in the CrossValidator estimator?
+2023-01-08 21:54:27.898 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: What is the drawback of inserting crossValidator at the end of ml pipeline instead of inserting the pipeline in the CrossValidator estimator?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-08 21:56:27.962 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-09 10:03:19.556 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 10:03:19.557 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 10:03:19.557 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 10:04:47.900 | INFO     | main:explain:77 - Request: question = what is GAN architecture?
+2023-01-09 10:04:47.901 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is GAN architecture?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-09 10:06:48.149 | INFO     | controllers.search:_search:48 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-09 10:12:48.485 | INFO     | main:explain:77 - Request: question = what is GAN architecture?
+2023-01-09 10:12:48.487 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is GAN architecture?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-09 10:14:48.680 | INFO     | controllers.search:_search:48 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-09 10:24:42.644 | INFO     | main:explain:77 - Request: question = what is GAN model?
+2023-01-09 10:24:42.647 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is GAN model?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-09 13:32:09.067 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 13:32:09.068 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 13:32:09.068 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-09 13:32:25.504 | INFO     | main:explain:77 - Request: question = what is  a large departure mean?
+2023-01-09 13:32:25.505 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is  a large departure mean?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-09 13:34:25.606 | INFO     | controllers.search:_search:48 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-09 15:33:33.046 | INFO     | main:explain:77 - Request: question = solutions for serving model on databrick estimate price?
+2023-01-09 15:33:33.050 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: solutions for serving model on databrick estimate price?, Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-09 15:35:33.151 | INFO     | controllers.search:_search:48 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-11 12:30:53.573 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:30:53.574 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:30:53.574 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:31:58.506 | INFO     | main:explain:77 - Request: question = QN=179 Brand building is important in B2B exchanges because: a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:31:58.508 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: QN=179 Brand building is important in B2B exchanges because: a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded., Choose one of the following answers and explain in detail why choose it and why not choose another answer:  . 
+2023-01-11 12:33:59.623 | INFO     | controllers.search:_search:48 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-11 12:35:10.645 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:35:10.646 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:35:10.646 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:35:35.125 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:35:35.126 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:35:35.127 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:26.520 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:26.521 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:26.521 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:30.597 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:30.597 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:36:30.598 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:37:01.266 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because: , answers = a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:37:01.268 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: ['a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges', ' making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.'], Choose one of the following answers and explain in detail why choose it and why not choose another answer? . 
+2023-01-11 12:38:41.905 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:38:41.906 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:38:41.906 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:38:45.944 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because: , answers = a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:38:45.945 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because: , Choose one of the following answers and explain in detail why choose it and why not choose another answer? a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges or  making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.. 
+2023-01-11 12:39:32.822 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:39:32.823 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:39:32.823 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:39:34.593 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because: , answers = a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:39:34.594 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because: , Choose one of the following answers and explain in detail why choose it and why not choose another answer? a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges or  making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.. 
+2023-01-11 12:40:29.623 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:40:29.623 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:40:29.624 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 120
+2023-01-11 12:40:31.140 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because: , answers = a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:40:31.140 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because: , Choose one of the following answers and explain in detail why choose it and why not choose another answer? a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges or  making trust of suppliers very important. c. it is easy for exchange members to change to another exchange. d. exchange members typically buy products at the lowest cost unless branded.. 
+2023-01-11 12:42:31.202 | INFO     | controllers.search:_search:49 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=120)
+2023-01-11 12:43:29.108 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:43:29.109 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:43:29.109 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:43:47.830 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because: , answers = a. exchange members typically buy only the best brands of product, b. information flow is poor in most exchanges, making trust of suppliers very important, c. it is easy for exchange members to change to another exchange, d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 12:43:47.831 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because: , Choose one of the following answers and explain in detail why choose it and why not choose another answer? a. exchange members typically buy only the best brands of product or  b. information flow is poor in most exchanges or  making trust of suppliers very important or  c. it is easy for exchange members to change to another exchange or  d. exchange members typically buy products at the lowest cost unless branded.. 
+2023-01-11 12:44:27.843 | INFO     | main:tet_generate:39 - Request: name = manh, context = pham
+2023-01-11 12:44:27.845 | INFO     | controllers.generate:_generate_query:88 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết manh cho năm nay. Thông tin của manh: pham. manh mong muốn: ass 
+2023-01-11 12:44:28.373 | INFO     | controllers.search:_search:49 - Error: Expecting value: line 1 column 1 (char 0)
+2023-01-11 12:45:26.974 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:45:26.975 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:45:26.975 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:45:34.347 | INFO     | main:tet_generate:39 - Request: name = manh, context = pham
+2023-01-11 12:45:34.348 | INFO     | controllers.generate:_generate_query:88 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết manh cho năm nay. Thông tin của manh: pham. manh mong muốn: ass 
+2023-01-11 12:46:06.794 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:46:06.796 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:46:06.796 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:46:08.600 | INFO     | main:tet_generate:39 - Request: name = manh, context = pham
+2023-01-11 12:46:08.601 | INFO     | controllers.generate:_generate_query:88 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Tạo một lời chúc ngày Tết manh cho năm nay. Thông tin của manh: pham. manh mong muốn: ass 
+2023-01-11 12:49:18.795 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:49:18.796 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:49:18.796 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:49:41.662 | INFO     | main:tet_generate:39 - Request: name = anh Mạnh, context = chưa có người yêu
+2023-01-11 12:49:41.663 | INFO     | controllers.generate:_generate_query:93 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Gửi một lời chúc Tết tới anh Mạnh . Một số thông tin của anh Mạnh: chưa có người yêu. Những mong muốn của anh Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh 
+2023-01-11 12:50:42.724 | INFO     | main:tet_generate:39 - Request: name = anh Mạnh, context = chưa có người yêu
+2023-01-11 12:50:42.727 | INFO     | controllers.generate:_generate_query:93 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Gửi một lời chúc Tết tới anh Mạnh . Một số thông tin của anh Mạnh: chưa có người yêu. Những mong muốn của anh Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh 
+2023-01-11 12:50:43.188 | INFO     | controllers.search:_search:50 - Error: Expecting value: line 1 column 1 (char 0)
+2023-01-11 12:50:51.590 | INFO     | main:tet_generate:39 - Request: name = anh Mạnh, context = chưa có người yêu
+2023-01-11 12:50:51.591 | INFO     | controllers.generate:_generate_query:93 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Gửi một lời chúc Tết tới anh Mạnh . Một số thông tin của anh Mạnh: chưa có người yêu. Những mong muốn của anh Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh 
+2023-01-11 12:51:58.154 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:51:58.155 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:51:58.156 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:52:52.039 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:52:52.040 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 12:52:52.040 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:29:43.151 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:29:43.152 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:29:43.152 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:29:57.431 | INFO     | main:gen_quest:48 - Request: question = what is your name?
+2023-01-11 15:29:57.432 | INFO     | main:gen_quest:57 - Error: QuestionGenerator.generate() got an unexpected keyword argument 'qtype' | Request: question = what is your name?
+2023-01-11 15:30:15.984 | INFO     | main:explain:77 - Request: question = what is your name?
+2023-01-11 15:30:15.986 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is your name?? . 
+2023-01-11 15:30:51.873 | INFO     | main:gen_quest:48 - Request: question = what is your name?
+2023-01-11 15:30:51.875 | INFO     | main:gen_quest:57 - Error: QuestionGenerator.generate() got an unexpected keyword argument 'qtype' | Request: question = what is your name?
+2023-01-11 15:31:00.062 | INFO     | main:explain:77 - Request: question = what is your name?
+2023-01-11 15:31:00.062 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: what is your name?? . 
+2023-01-11 15:33:25.260 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because:, answers =  a. exchange members typically buy only the best brands of product., b. information flow is poor in most exchanges, making trust of suppliers very important., c. it is easy for exchange members to change to another exchange., d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 15:33:25.263 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because:, Choose one of the following answers and explain in detail why choose it and why not choose another answer?  a. exchange members typically buy only the best brands of product. or  b. information flow is poor in most exchanges or  making trust of suppliers very important. or  c. it is easy for exchange members to change to another exchange. or  d. exchange members typically buy products at the lowest cost unless branded.. 
+2023-01-11 15:34:29.581 | INFO     | main:explain:77 - Request: question = Brand building is important in B2B exchanges because:
+2023-01-11 15:34:29.584 | INFO     | controllers.explain:_generate_query:66 - generated_text: I have a question: Brand building is important in B2B exchanges because:? . 
+2023-01-11 15:35:47.401 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:35:47.402 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:35:47.402 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 15:35:54.547 | INFO     | main:edu:64 - Request: question = Brand building is important in B2B exchanges because:, answers =  a. exchange members typically buy only the best brands of product., b. information flow is poor in most exchanges, making trust of suppliers very important., c. it is easy for exchange members to change to another exchange., d. exchange members typically buy products at the lowest cost unless branded.
+2023-01-11 15:35:54.548 | INFO     | controllers.explain:_generate_query:30 - generated_text: I have a question: Brand building is important in B2B exchanges because:,  a. exchange members typically buy only the best brands of product. or  b. information flow is poor in most exchanges or  making trust of suppliers very important. or  c. it is easy for exchange members to change to another exchange. or  d. exchange members typically buy products at the lowest cost unless branded.. Choose one of the following answers and explain in detail why choose it and why not choose another answer? 
+2023-01-11 16:55:13.619 | INFO     | main:gen_quest:48 - Request: question = what is your name?
+2023-01-11 16:55:13.623 | INFO     | main:gen_quest:57 - Error: QuestionGenerator.generate() got an unexpected keyword argument 'qtype' | Request: question = what is your name?
+2023-01-11 16:55:47.650 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 16:55:47.651 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 16:55:47.652 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 16:55:47.816 | INFO     | main:gen_quest:48 - Request: question = what is your name?
+2023-01-11 16:55:47.817 | INFO     | controllers.generate:_generate_query:55 - Generated question: I have a question:  'what is your name? '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-11 16:55:57.329 | INFO     | main:gen_quest:57 - Error: can only concatenate str (not "list") to str | Request: question = what is your name?
+2023-01-11 16:56:45.056 | INFO     | main:gen_quest:48 - Request: question = Brand building is important in B2B exchanges because: a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important.
+2023-01-11 16:56:45.058 | INFO     | controllers.generate:_generate_query:55 - Generated question: I have a question:  'Brand building is important in B2B exchanges because: a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important. '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-11 16:56:54.152 | INFO     | main:gen_quest:57 - Error: can only concatenate str (not "list") to str | Request: question = Brand building is important in B2B exchanges because: a. exchange members typically buy only the best brands of product. b. information flow is poor in most exchanges, making trust of suppliers very important.
+2023-01-11 16:57:59.626 | INFO     | main:gen_quest:48 - Request: question =  Factors that come into play in determining whether a particular method of e-payment achieves critical mass include all of the following EXCEPT:
+2023-01-11 16:57:59.628 | INFO     | controllers.generate:_generate_query:55 - Generated question: I have a question:  ' Factors that come into play in determining whether a particular method of e-payment achieves critical mass include all of the following EXCEPT: '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-11 16:58:19.273 | INFO     | main:gen_quest:57 - Error: can only concatenate str (not "list") to str | Request: question =  Factors that come into play in determining whether a particular method of e-payment achieves critical mass include all of the following EXCEPT:
+2023-01-11 19:13:32.581 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:32.583 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:32.583 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:41.361 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:41.362 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:41.362 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:41.362 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:52.070 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:52.071 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:52.071 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:13:52.071 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:14:16.265 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:14:16.266 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:14:16.266 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:14:16.266 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:15:16.452 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:15:24.955 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:15:24.955 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:15:24.956 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:15:24.956 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:15:27.000 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:16:05.231 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:05.232 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:05.232 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:05.232 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:07.976 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:16:17.550 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:17.551 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:17.551 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:17.552 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:16:19.692 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:16:19.693 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo cho tôi một bài marketing với tiêu đề là: câu chuyện ngày Tết, có nội dung ngắn là: Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, có từ khóa là: Tết cổ truyền 
+2023-01-11 19:17:46.467 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:17:46.468 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:17:46.468 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:17:46.469 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:17:47.893 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:17:47.898 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo cho tôi một bài marketing với tiêu đề là: câu chuyện ngày Tết, có nội dung ngắn là: Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, có từ khóa là: Tết cổ truyền 
+2023-01-11 19:19:38.126 | INFO     | main:gen_quest:56 - Request: question = what is your name?
+2023-01-11 19:19:38.131 | INFO     | controllers.generate:_generate_query:55 - Generated question: I have a question:  'what is your name? '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-11 19:19:54.131 | INFO     | main:gen_quest:65 - Error: can only concatenate str (not "list") to str | Request: question = what is your name?
+2023-01-11 19:20:15.593 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, keywords = Tết cổ truyền
+2023-01-11 19:20:15.594 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo cho tôi một bài marketing với tiêu đề là: câu chuyện ngày Tết, có nội dung ngắn là: Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như: Tết Cả, Tết Âm lịch, Tết ta, Tết cổ truyền,…, có từ khóa là: Tết cổ truyền 
+2023-01-11 19:21:16.253 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như, keywords = Tết cổ truyền
+2023-01-11 19:21:16.255 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo cho tôi một bài marketing với tiêu đề là: câu chuyện ngày Tết, có nội dung ngắn là: Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như, có từ khóa là: Tết cổ truyền 
+2023-01-11 19:22:19.852 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:22:19.853 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:22:19.853 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:22:19.853 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:22:29.229 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content = Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như, keywords = Tết cổ truyền
+2023-01-11 19:22:29.230 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo cho tôi một bài marketing với tiêu đề câu chuyện ngày Tết, có nội dung ngắn Tết Nguyên đán là dịp lễ quan trọng nhất trong năm của người Việt Nam được tính vào đầu năm Âm lịch, Tết Nguyên đán thường có nhiều tên gọi khác nhau như, có từ khóa Tết cổ truyền 
+2023-01-11 19:23:29.191 | INFO     | main:gen_quest:56 - Request: question = what is your name?
+2023-01-11 19:23:29.193 | INFO     | controllers.generate:_generate_query:48 - Generated question: I have a question:  'what is your name? '. Please help me create new question with same this topic question's with multiple choice 
+2023-01-11 19:23:38.582 | INFO     | main:gen_quest:65 - Error: can only concatenate str (not "list") to str | Request: question = what is your name?
+2023-01-11 19:24:11.968 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content =  , keywords =  
+2023-01-11 19:24:11.970 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo cho tôi một bài marketing với tiêu đề câu chuyện ngày Tết, có nội dung ngắn  , có từ khóa   
+2023-01-11 19:25:24.167 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:25:24.168 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:25:24.168 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:25:24.169 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 19:25:27.414 | INFO     | main:tet_generate:48 - Request: title = câu chuyện ngày Tết, short_content =  , keywords =  
+2023-01-11 19:25:27.415 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo cho tôi một bài marketing với tiêu đề câu chuyện ngày Tết, có nội dung ngắn  , có từ khóa   
+2023-01-11 20:23:09.080 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 20:23:09.081 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 20:23:09.081 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-11 20:23:09.081 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:33:46.059 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:33:46.059 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:33:46.060 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:33:46.060 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:34:12.968 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:34:12.969 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:34:12.969 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:34:12.969 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-13 13:34:33.836 | INFO     | main:tet_generate:39 - Request: name = Trang Anh, context = chưa có người yêu
+2023-01-13 13:34:33.837 | INFO     | controllers.generate:_generate_query:84 - Generated query: Năm nay - năm 2023 là năm Quý Mão.. Gửi một lời chúc Tết tới Trang Anh . Một số thông tin của Trang Anh: chưa có người yêu. Những mong muốn của Trang Anh: Giàu có và Làm ăn phát đạt và khoẻ mạnh 
+2023-01-14 19:29:27.543 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-14 19:29:53.948 | INFO     | main:tet_generate:32 - Request: name = anh Mạnh, expections = Yêu đời hơn
+2023-01-14 19:29:53.949 | INFO     | controllers.generate:_generate_query:32 - Generated query: Tạo câu chúc Tết tới anh Mạnh. Những mong muốn của anh Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:43:52.902 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-14 19:43:57.996 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-14 19:44:08.183 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-14 19:44:16.553 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1000
+2023-01-14 19:44:21.343 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:44:38.848 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:44:38.850 | INFO     | controllers.generate:_generate_query:34 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:44:43.946 | INFO     | controllers.search:_search:50 - Error: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:45:23.650 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:45:34.427 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:45:41.898 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:03.072 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:04.498 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:05.524 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:14.297 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:36.838 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:40.823 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:46:41.801 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:46:41.802 | INFO     | controllers.generate:_generate_query:34 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:46:46.898 | ERROR    | controllers.generate:generate:43 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:47:44.779 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:47:50.291 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:48:45.790 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:48:49.293 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:48:49.296 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:48:54.362 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:49:13.950 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:49:21.257 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:49:24.014 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:49:25.445 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:49:25.445 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:49:30.532 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:49:44.846 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:50:02.394 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:50:02.884 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:50:02.884 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:50:07.947 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:50:23.933 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:50:24.849 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:50:25.575 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:50:36.136 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:50:36.137 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:50:41.200 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:51:21.682 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 19:51:22.778 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:51:22.778 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:51:27.845 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:51:34.231 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 19:51:34.232 | INFO     | controllers.generate:_generate_query:35 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 19:51:39.305 | ERROR    | controllers.generate:generate:44 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 19:59:04.023 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:12:46.065 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:13:43.424 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:13:44.563 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:13:48.580 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:13:48.581 | INFO     | controllers.generate:_generate_query:62 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:13:53.684 | ERROR    | controllers.generate:generate:71 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 20:14:26.701 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:14:27.880 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:14:27.881 | INFO     | controllers.generate:_generate_query:62 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:14:32.952 | ERROR    | controllers.generate:generate:71 - Exception: HTTPConnectionPool(host='13.229.139.60', port=8888): Read timed out. (read timeout=5)
+2023-01-14 20:15:49.197 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:15:56.034 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:15:58.107 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:15:58.107 | INFO     | controllers.generate:_generate_query:66 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:16:16.801 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:16:16.802 | INFO     | controllers.generate:_generate_query:66 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:16:43.352 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:16:43.356 | INFO     | controllers.generate:_generate_query:66 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:18:57.638 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:20:25.416 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:21:59.399 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:22:48.689 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:22:53.661 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:23:07.604 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:23:19.122 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:23:22.925 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:23:22.926 | INFO     | controllers.generate:_generate_query:66 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:24:11.837 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:24:12.964 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:24:12.965 | INFO     | controllers.generate:_generate_query:67 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:25:07.928 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:25:10.565 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:25:10.565 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:26:06.138 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:26:09.930 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:26:12.846 | INFO     | main:tet_generate:32 - Request: name = Mạnh, expections = học giỏi
+2023-01-14 20:26:12.847 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:26:35.731 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:27:03.222 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:27:04.181 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:27:40.043 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:27:40.045 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:27:52.795 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:27:52.798 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:28:16.791 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:28:16.793 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:29:29.957 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:29:31.010 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:29:31.011 | INFO     | controllers.generate:_generate_query:69 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: Giàu có và Làm ăn phát đạt và khoẻ mạnh và an lành 
+2023-01-14 20:30:20.557 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:30:22.774 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:30:22.776 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn, vui tươi và luôn luôn mạnh khoẻ 
+2023-01-14 20:31:15.098 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:31:15.101 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: vạn sự như ý, luôn nhiều sức khỏe và làm ăn phát tài, vạn sự đại cát 
+2023-01-14 20:31:30.463 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:31:30.464 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, luôn luôn mạnh khoẻ và dồi dào sức khoẻ 
+2023-01-14 20:31:39.996 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:31:39.997 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: vạn sự như ý, tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin và luôn nhiều sức khỏe 
+2023-01-14 20:31:47.752 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:31:47.754 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, tấn tài tấn lộc, tấn an khang và luôn luôn mạnh khoẻ 
+2023-01-14 20:32:12.677 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:32:12.679 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: làm ăn phát tài, vạn sự đại cát, luôn khoẻ mạnh khoẻ và tấn tài tấn lộc, tấn an khang 
+2023-01-14 20:32:29.426 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = học giỏi
+2023-01-14 20:32:29.427 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn nhiều sức khỏe, luôn hạnh phúc và dồi dào sức khoẻ 
+2023-01-14 20:43:51.973 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 20:43:51.976 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn, luôn luôn mạnh khoẻ và sức khỏe dồi dào 
+2023-01-14 20:45:14.302 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 20:45:14.305 | INFO     | controllers.generate:_generate_query:65 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: vui tươi, tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin và luôn khoẻ mạnh khoẻ 
+2023-01-14 20:51:49.467 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:54:34.441 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:54:53.898 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:56:10.828 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:56:18.979 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:56:23.907 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 20:56:23.908 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và sức khỏe dồi dào. :)) Tóm gọn lại chúc <NAME> sức khỏe dồi dào 
+2023-01-14 20:56:40.970 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:59:30.222 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 20:59:36.144 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 20:59:36.145 | INFO     | controllers.generate:_generate_query:71 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi, suôn sẻ, thành công và sức khỏe dồi dào.  Chúc <NAME> thuận lợi, suôn sẻ, thành công 
+2023-01-14 21:00:00.227 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:00:50.263 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:01:13.598 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:01:15.115 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:01:15.117 | INFO     | controllers.generate:_generate_query:73 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi, suôn sẻ, thành công và hạnh phúc ngập tràn.  Tóm gọn lại là mình chúc <NAME>  thuận lợi, suôn sẻ, thành công 
+2023-01-14 21:02:20.455 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:02:33.764 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:02:35.153 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:02:35.154 | INFO     | controllers.generate:_generate_query:72 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn và sức khỏe dồi dào.  Chúc <NAME>  sức khỏe dồi dào 
+2023-01-14 21:02:51.075 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:02:52.712 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:03:22.181 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:03:29.317 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:03:30.928 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:03:30.929 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi, suôn sẻ, thành công và hạnh phúc ngập tràn. Mình chúc <NAME>  tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-14 21:03:45.472 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:03:45.474 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn và hạnh phúc ngập tràn. Mình chúc <NAME>  vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-14 21:04:30.801 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 5
+2023-01-14 21:05:54.088 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:05:54.089 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn và thuận lợi, suôn sẻ, thành công. Chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:06:14.856 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:06:14.867 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và thuận lợi, suôn sẻ, thành công. Mình chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-14 21:06:27.581 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:06:27.583 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc và may mắn và sức khỏe dồi dào. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-14 21:12:30.071 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:12:30.075 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và hạnh phúc và may mắn. Mình chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:13:41.969 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:13:41.971 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và thuận lợi, suôn sẻ, thành công. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-14 21:14:00.944 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:14:00.946 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi, suôn sẻ, thành công và hạnh phúc và may mắn. Mình chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-14 21:14:25.123 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:14:25.129 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:14:25.129 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an và sức khỏe dồi dào. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-14 21:14:27.101 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:14:27.101 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và luôn luôn yêu đời. Mình chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng! 
+2023-01-14 21:14:34.041 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:14:34.043 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời và có nhiều thành công. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ! 
+2023-01-14 21:14:45.005 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:14:45.009 | INFO     | controllers.generate:_generate_query:70 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc và luôn luôn yêu đời. Mình chúc <NAME> vạn sự bình an. 
+2023-01-14 21:17:58.594 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:18:11.378 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh_chi, expections = yêu đời
+2023-01-14 21:18:11.379 | INFO     | controllers.generate:_generate_query:74 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời và luôn luôn suôn sẻ. Mình chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến. 
+2023-01-14 21:18:46.298 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:19:14.172 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:19:15.228 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh_chi, expections = yêu đời
+2023-01-14 21:19:15.229 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: có nhiều thành công và thuận lợi trong công việc. Chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến. 
+2023-01-14 21:19:55.480 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:19:57.594 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh_chi, expections = yêu đời
+2023-01-14 21:19:57.594 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn suôn sẻ và có nhiều thành công. Chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:20:06.571 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:20:06.573 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thành công trong sự nghiệp và hạnh phúc ngập tràn. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-14 21:21:03.844 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:21:03.846 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào và may mắn. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-14 21:22:18.189 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:22:18.190 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và thuận lợi trong công việc. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ! 
+2023-01-14 21:22:27.978 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:22:27.979 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc và luôn luôn yêu đời. Chúc <NAME> vạn sự bình an. 
+2023-01-14 21:22:42.120 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:22:42.121 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn suôn sẻ và thuận lợi trong công việc. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-14 21:23:32.395 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:23:32.411 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và thuận lợi trong công việc. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-14 21:24:43.205 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:24:43.207 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và thuận lợi trong công việc. Chúc <NAME> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến. 
+2023-01-14 21:24:49.146 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:24:49.147 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an và an lành & vui tươi. Chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-14 21:24:53.718 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:24:53.719 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn suôn sẻ và may mắn. Chúc <NAME> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên. 
+2023-01-14 21:24:56.085 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:24:56.086 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc và luôn luôn yêu đời. Chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng! 
+2023-01-14 21:25:03.767 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:25:03.768 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và hạnh phúc ngập tràn. Chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:25:07.067 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:25:07.068 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc và hạnh phúc ngập tràn. Chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-14 21:25:10.717 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:25:10.718 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời và may mắn. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-14 21:25:14.470 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-14 21:25:14.471 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: may mắn và có nhiều thành công. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-14 21:25:22.680 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:22.682 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và hạnh phúc ngập tràn. Chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới! 
+2023-01-14 21:25:33.459 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:33.460 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: có nhiều thành công và an lành & vui tươi. Chúc <NAME> vạn sự bình an. 
+2023-01-14 21:25:38.573 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:38.574 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thành công trong sự nghiệp và sức khỏe dồi dào. Chúc <NAME> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên. 
+2023-01-14 21:25:40.612 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:40.613 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và thuận lợi trong công việc. Chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-14 21:25:42.647 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:42.648 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào và có nhiều thành công. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-14 21:25:44.236 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:44.237 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc và hạnh phúc ngập tràn. Chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:25:46.865 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:46.866 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành & vui tươi và thuận lợi trong công việc. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-14 21:25:48.629 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:25:48.629 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và an lành & vui tươi. Chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng! 
+2023-01-14 21:27:56.680 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:27:57.927 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:27:57.928 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và luôn luôn suôn sẻ. Chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-14 21:28:01.360 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:28:01.360 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an và an lành . Chúc <NAME> sức khỏe vô biên, kiếm được nhiều tiền, đời sướng như tiên, chẳng ai làm phiền 
+2023-01-14 21:28:03.631 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:28:03.632 | INFO     | controllers.generate:_generate_query:75 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào và may mắn. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-14 21:29:07.930 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:33:08.520 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:33:20.345 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-14 21:33:26.356 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-14 21:33:26.358 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an và thành công. Chúc <NAME> vạn sự bình an 
+2023-01-14 21:33:32.419 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = chú, expections = yêu đời
+2023-01-14 21:33:32.420 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và an lành . Chúc <NAME> vạn sự bình an 
+2023-01-14 21:33:44.556 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = chú, expections = yêu đời
+2023-01-14 21:33:44.558 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi và tràn đầy niềm vui. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 08:28:00.028 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = chú, expections = yêu đời
+2023-01-15 08:28:00.033 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi và luôn luôn yêu đời. Chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 08:28:07.449 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:28:07.450 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: khôn trong lý tưởng, trưởng thành mọi lĩnh vực và bình an. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 08:29:23.595 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 08:29:43.033 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:29:43.037 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời và may mắn. Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 08:32:23.506 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:32:23.508 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời và khôn trong lý tưởng, trưởng thành mọi lĩnh vực. Chúc <NAME> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 08:32:52.596 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:32:52.598 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui và an lành . Chúc <NAME> luôn hoan hỉ, sức khỏe bền bỉ, công danh hết ý, tiền vào bạc tỉ, tiền ra ri rỉ, tình yêu thỏa chí, vạn sự như ý, luôn cười hi hi, cung hỷ cung hỷ 
+2023-01-15 08:33:09.247 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 08:33:09.497 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:33:09.498 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: may mắn, hạnh phúc ngập tràn và khôn trong lý tưởng, trưởng thành mọi lĩnh vực. Chúc <NAME> vạn sự bình an 
+2023-01-15 08:33:20.188 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:33:20.189 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, yêu đời và luôn luôn suôn sẻ. Chúc <NAME> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-15 08:33:58.993 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:33:58.995 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, hạnh phúc ngập tràn và bình an. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 08:34:05.500 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:34:05.501 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặt hái nhiều thành công, luôn luôn suôn sẻ và an lành. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 08:34:24.537 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:34:24.539 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, khôn trong lý tưởng, trưởng thành mọi lĩnh vực và gặt hái nhiều thành công. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 08:34:31.674 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:34:31.675 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời, an lành và khôn trong lý tưởng, trưởng thành mọi lĩnh vực. Chúc <NAME> vạn sự an khang vạn sự lành, an khang thịnh vượng 
+2023-01-15 08:34:47.489 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = bạn, expections = yêu đời
+2023-01-15 08:34:47.493 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn yêu đời, thuận lợi và khôn trong lý tưởng, trưởng thành mọi lĩnh vực. Chúc <NAME> vạn sự bình an 
+2023-01-15 11:59:28.992 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 11:59:38.358 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:01:51.009 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:04:12.699 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:07:06.645 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:07:21.570 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = Học giỏi
+2023-01-15 12:07:46.997 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:07:49.610 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = Học giỏi
+2023-01-15 12:07:49.641 | INFO     | controllers.generate:_generate_query:82 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, bình an và luôn luôn yêu đời. Chúc <NAME> năm mới sung túc, vạn phúc nghìn duyên, túi rủng rỉnh tiền, tâm hồn phơi phới 
+2023-01-15 12:08:25.593 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:08:26.627 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:09:03.517 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:09:07.197 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = Học giỏi
+2023-01-15 12:09:07.228 | INFO     | controllers.generate:_generate_query:82 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: may mắn, bình an và gặt hái nhiều thành công. Chúc <NAME> tài lộc vạn sự vào, bình an vạn lần đến 
+2023-01-15 12:10:14.430 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:10:16.315 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = Học giỏi
+2023-01-15 12:10:16.319 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, luôn luôn suôn sẻ và thuận lợi trong công việc. Chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 12:10:32.775 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = Hạnh phúc
+2023-01-15 12:10:32.780 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, an lành và hạnh phúc ngập tràn. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 12:10:41.030 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:10:41.035 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc, sức khỏe dồi dào và hạnh phúc ngập tràn. Chúc <NAME> làm ăn phát tài, vạn sự đại cát 
+2023-01-15 12:10:55.575 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:11:40.938 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:12:54.961 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:12:59.613 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:12:59.615 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặt hái nhiều thành công, an lành và luôn luôn yêu đời. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 12:13:17.890 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:13:18.922 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:13:18.925 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: thuận lợi trong công việc, tràn đầy niềm vui và an lành. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 12:13:31.983 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:13:32.000 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: khôn trong lý tưởng, trưởng thành mọi lĩnh vực, bình an và hạnh phúc ngập tràn. Chúc <NAME> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-15 12:13:37.596 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:13:37.608 | INFO     | controllers.generate:_generate_query:81 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, luôn luôn suôn sẻ và luôn luôn yêu đời. Chúc <NAME> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-15 12:13:50.929 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:14:25.796 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:14:25.799 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, khôn trong lý tưởng, trưởng thành mọi lĩnh vực và hạnh phúc ngập tràn. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 12:14:31.894 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:14:31.896 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: luôn luôn suôn sẻ, sức khỏe dồi dào và thuận lợi trong công việc. Chúc <NAME> tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 
+2023-01-15 12:14:41.999 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:14:42.003 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: gặt hái nhiều thành công, thuận lợi trong công việc và may mắn. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 12:14:52.391 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời
+2023-01-15 12:14:52.398 | INFO     | controllers.generate:_generate_query:80 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an, luôn luôn yêu đời và hạnh phúc ngập tràn. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 12:15:10.775 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:15:13.709 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:15:39.461 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:15:47.651 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:15:56.670 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:15:56.681 | INFO     | controllers.generate:_generate_query:78 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời, tràn đầy niềm vui và luôn luôn yêu đời. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 12:17:17.051 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:17:17.064 | INFO     | controllers.generate:_generate_query:78 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, luôn luôn suôn sẻ và yêu đời. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-15 12:18:03.233 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:18:04.410 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:18:04.421 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, gặt hái nhiều thành công và hạnh phúc ngập tràn. Chúc <NAME> càng sung sức, không bực tức, không đau nhức, gấp đôi lợi tức, tiền vào thơm phức 
+2023-01-15 12:18:49.427 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:18:50.760 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:19:02.243 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:19:06.228 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:19:06.635 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:19:07.669 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:19:27.111 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:19:28.612 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:19:47.664 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:20:01.068 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:20:25.778 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 1
+2023-01-15 12:20:28.181 | INFO     | main:tet_generate:32 - Request: name = Mạnh, level = anh, expections = yêu đời, hạnh phúc, giàu có
+2023-01-15 12:20:28.186 | INFO     | controllers.generate:_generate_query:79 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: y, ê, u,  , đ, ờ, i, g, ặ, t,  , h, á, i,  , n, h, i, ề, u,  , t, h, à, n, h,  , c, ô, n, g, g, i, à, u,  , c và ó. Chúc <NAME> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
