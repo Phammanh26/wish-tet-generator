@@ -1918,3 +1918,8 @@
 2023-01-17 00:18:10.595 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
 2023-01-17 00:18:16.826 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
 2023-01-17 00:18:16.828 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, sức khỏe dồi dào và học hành giỏi giang 
+2023-01-17 00:20:37.388 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:21:32.251 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:21:32.252 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn gặp nhiều may mắn, học hành giỏi giang và  sớm ra trường 
+2023-01-17 00:22:03.423 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:22:03.425 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn công việc thăng tiến, học hành giỏi giang và  sớm ra trường 

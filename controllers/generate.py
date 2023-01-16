@@ -82,9 +82,6 @@ def generate_backup(name, level, expections):
         r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
         wish_tet_list = random.choice(wish_tet_list)
         wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
-
-    
-        
     except Exception as e:
         logger.error(e)
         r_expection = generate_expection(
@@ -125,10 +122,13 @@ class TetWishGenerator:
             pre_sentence = ["Tết đến xuân về, ", "2023 đã đến, ", "Nhân dịp đầu xuân, ", "Đầu xuân năm mới, ", "Năm mới đến rồi, ", "Nhân dịp đầu năm mới, ", "Đầu năm, ", "Đầu xuân, ", "Nhân dịp đầu xuân năm mới, ", "Nhân dịp Tết đến xuân sang, "]
             question_query = self._generate_query(name, level, expections)
             result = self.searcher.search(query_text = question_query)
-            result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
-
-            post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
-            result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
+            
+            if len(result.split(" "))<= 5:
+                result = generate_backup(name, level, expections)
+            else:
+                result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
+                post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
+                result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
 
             for b_t in ["Thiên Chúa", "Chúa", "bổ ích"]:
                 if b_t in result:
@@ -136,7 +136,6 @@ class TetWishGenerator:
         except Exception as e:
             logger.error(e)
             result = generate_backup(name, level, expections)
-        
 
         pharaphased_result = pharaphase_result(result, name, level)
         result = post_processing(pharaphased_result)
