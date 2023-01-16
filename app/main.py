@@ -41,7 +41,6 @@ class CustomForm(BaseModel):
     name: str
     expections:  List[str]
 
-
 @app.post("/generator/TetAI/new")
 def tet_generate(data: CustomForm):
     generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
