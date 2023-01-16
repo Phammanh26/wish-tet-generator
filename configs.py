@@ -14,7 +14,6 @@ token =   os.getenv("CHATGPT_TOKEN", None)
 host_server = os.getenv("HOST_SERVER", None)
 port_server =   os.getenv("PORT_SERVER", None)
 
-
 with open("context/expects/general.txt", "r") as f:
         EXPECTIONS_DEFAULT = [exp.replace("\n", "") for exp in f.readlines()]
 

@@ -5,16 +5,22 @@ from controllers.search import GPTSearcher
 from utils.text import get_text_topk, pharaphase_result, post_processing
 from utils.common import listComplementElements
 
+pre_sentence = ["Tết đến xuân về, ", 
+                "2023 đã đến, ", 
+                "Nhân dịp đầu xuân, ", 
+                "Đầu xuân năm mới, ", 
+                "Năm mới đến rồi, ", 
+                "Nhân dịp đầu năm mới, ", 
+                "Đầu năm, ", 
+                "Đầu xuân, ", 
+                "Nhân dịp đầu xuân năm mới, ", 
+                "Nhân dịp Tết đến xuân sang, ",
+            ]
 
+black_list_words = ["Thiên Chúa", "Chúa", "bổ ích"]
 def generate_expection(exp_vocab,  expections, anomalous_level = False):
     r_expection = ""
     _expections = []
-
-    if anomalous_level:
-        post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL_1>"
-    else:
-        post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME>"
-    
     for expection in expections:
         expection_results = get_text_topk(expection, exp_vocab, 3)
         expection_results = listComplementElements(expection_results, _expections)
@@ -26,7 +32,6 @@ def generate_expection(exp_vocab,  expections, anomalous_level = False):
     unique_expections = list(set(_expections))
     r_expection = ", ".join(unique_expections[:-1])
     r_expection += " và " + unique_expections[-1]
-    r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
     return r_expection
 
 
@@ -41,14 +46,9 @@ def generate_expection_1(exp_vocab,  expections, anomalous_level = False):
     r_expection += " và " + unique_expections[-1]
     return r_expection
 
-    
 
 def generate_backup(name, level, expections):
-   
-    pre_sentence = ["Tết đến xuân về, ", "2023 đã đến, ", "Nhân dịp đầu xuân, ", "Đầu xuân năm mới, ", "Năm mới đến rồi, ", "Nhân dịp đầu năm mới, ", "Đầu năm, ", "Đầu xuân, ", "Nhân dịp đầu xuân năm mới, ", "Nhân dịp Tết đến xuân sang, "]
-    result = ""
-    vocab = []
-    wish_tet_list = []
+    vocab, wish_tet_list = [], []
     try:
         if level == 'bạn':
             wish_tet_list = configs.FRIEND_BACKUP_LIST
@@ -91,8 +91,10 @@ def generate_backup(name, level, expections):
         wish_tet_list = random.choice(configs.BACKUP_LIST)
         wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
     
+   
+    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME>"
+    r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
     wish_tet_result = wish_tet_result.replace("<EXPECT>", r_expection)
-
     return wish_tet_result
 
 
@@ -109,17 +111,14 @@ class TetWishGenerator:
             config = config, 
             )
         
-        
     def _generate_query(self, name,level,  expections):
         ex_context = generate_expection_1(expections = expections, exp_vocab = configs.EXPECTIONS_DEFAULT)
         generated_query = f"Tạo lời chúc Tết 2023 tới {name}, trong năm mới {level} {name} rất mong muốn {ex_context}"
-        logger.info(f"Generated query: {generated_query} ") 
         return generated_query
 
     def generate(self, name = "", level = 'bạn', expections = []):
         result  = "Chúc mừng năm mới 2023!"
         try:
-            pre_sentence = ["Tết đến xuân về, ", "2023 đã đến, ", "Nhân dịp đầu xuân, ", "Đầu xuân năm mới, ", "Năm mới đến rồi, ", "Nhân dịp đầu năm mới, ", "Đầu năm, ", "Đầu xuân, ", "Nhân dịp đầu xuân năm mới, ", "Nhân dịp Tết đến xuân sang, "]
             question_query = self._generate_query(name, level, expections)
             result = self.searcher.search(query_text = question_query)
             
@@ -130,13 +129,15 @@ class TetWishGenerator:
                 post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
                 result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
 
-            for b_t in ["Thiên Chúa", "Chúa", "bổ ích"]:
-                if b_t in result:
+            for _black in black_list_words:
+                if _black in result:
                     result = generate_backup(name, level, expections)
+        
         except Exception as e:
             logger.error(e)
             result = generate_backup(name, level, expections)
-
-        pharaphased_result = pharaphase_result(result, name, level)
-        result = post_processing(pharaphased_result)
+        
+        finally:
+            pharaphased_result = pharaphase_result(result, name, level)
+            result = post_processing(pharaphased_result)
         return result

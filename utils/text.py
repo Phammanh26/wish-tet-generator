@@ -41,7 +41,7 @@ def pharaphase_result(result, name, level):
         result = result.replace("<NAME>", f"{level}")
         result = result.replace("<LEVEL>", level)
 
-    result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt", "Đặc biệt hơn", "Một điều nữa, "]))
+    result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,"]))
     result = result.replace("<LEVEL_1>", level)
     result = result.replace("<OWN_LEVEL>", random.choice(own_level))
     return  result
