@@ -17,14 +17,33 @@ def get_text_topk(q_text, v_texts, k=5):
     return scores[:k] 
 
 
-def pharaphase_result(result, name, level, own_level, str_expection):
-    result = result.replace("<EXPECT>", str_expection)
+def pharaphase_result(result, name, level):
+    print(f"result: {result}")
+    own_level = [""]
+    if level == 'bạn':
+        own_level.extend(["mình", "tớ", "tui", "tôi"])
+        result = result.replace("<NAME>", random.choice([name, level]))
+        result = result.replace("<LEVEL>", random.choice([name, level]))
+        
+    elif level in ['anh', 'chị']:
+        own_level.extend(["em"])
+        result = result.replace("<LEVEL>", level)
+        result = result.replace("<NAME>", f"{level} {name}")
+
+    elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
+        name = f"{level} {name}"
+        own_level.extend(["cháu"])
+        result = result.replace("<NAME>", f"{level} {name}")
+
+    elif level in ['bố', 'mẹ']:
+        name = level
+        own_level.extend(["con"])
+        result = result.replace("<NAME>", f"{level}")
+        result = result.replace("<LEVEL>", level)
+
     result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt", "Đặc biệt hơn", "Một điều nữa, "]))
-    result = result.replace("<NAME>", random.choice([name, level]))
-    result = result.replace("<LEVEL>", random.choice([name, level]))
     result = result.replace("<LEVEL_1>", level)
     result = result.replace("<OWN_LEVEL>", random.choice(own_level))
-
     return  result
 
 def pre_processing(text):

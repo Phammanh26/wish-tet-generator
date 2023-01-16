@@ -4,7 +4,7 @@ load_dotenv()  # take environment variables from .env.
 version = os.getenv("VERSION", "tetai-default:0.0.1") 
 
 # TIMEOUT
-timeout = os.getenv("TIMEOUT", 1)
+timeout = os.getenv("TIMEOUT", 100)
 
 # CHATGPT CONNECTION INFO
 host = os.getenv("CHATGPT_HOST", None)

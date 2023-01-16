@@ -1567,3 +1567,354 @@
 2023-01-15 22:32:44.677 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
 2023-01-15 22:32:55.936 | INFO     | app.main:tet_generate:31 - Request: name = Manh, level = bạn, expections = thăng chức giám đốc
 2023-01-15 22:32:55.939 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-16 22:45:07.195 | INFO     | controllers.search:setup:15 - host = http://13.229.139.60:8888/chatgpt, token = sGSyaZ2IPrLMLjTt1Xp8, timeout = 2
+2023-01-16 22:45:40.310 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:46:20.268 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi
+2023-01-16 22:46:20.269 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-16 22:49:10.955 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:49:12.620 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi
+2023-01-16 22:49:12.621 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-16 22:49:26.640 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:49:26.642 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-16 22:49:48.030 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:49:49.097 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:49:49.097 | ERROR    | controllers.generate:generate:124 - generate_expection() missing 1 required positional argument: 'expections'
+2023-01-16 22:50:53.924 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:50:58.910 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:50:58.911 | ERROR    | controllers.generate:generate:124 - generate_expection() got multiple values for argument 'exp_vocab'
+2023-01-16 22:51:29.270 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:51:30.301 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:51:30.304 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: sức khỏe dồi dào, luôn luôn yêu đời và yêu đời nhiều hơn. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> vạn sự bình yên, hạnh phúc vô biên, vui vẻ triền miên, kiếm được nhiều tiền, sung sướng như tiên 
+2023-01-16 22:51:30.305 | ERROR    | controllers.generate:generate:124 - local variable 'url' referenced before assignment
+2023-01-16 22:51:59.509 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:52:00.752 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:52:00.757 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn và an khang thịnh vượng, sức khoẻ dồi dào. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> phát tài phát lộc, tiền vô xồng xộc, tiền ra từ từ - sức khoẻ có dư, công danh tấn tới 
+2023-01-16 22:52:00.757 | ERROR    | controllers.generate:generate:124 - 'GPTSearcher' object has no attribute 'url'
+2023-01-16 22:52:12.069 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:52:12.917 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:52:12.926 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an lành, hạnh phúc ngập tràn và yêu đời nhiều hơn. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> trẻ mãi không già, yêu thương thuận hòa, cửa nhà sung túc, hạnh phúc khang an 
+2023-01-16 22:52:12.926 | ERROR    | controllers.generate:generate:124 - local variable 'data' referenced before assignment
+2023-01-16 22:52:30.250 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:52:32.907 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:52:32.916 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: kiếm được thật nhiều tiền, hạnh phúc ngập tràn và làm ăn thuận lợi. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-16 22:52:33.081 | ERROR    | controllers.generate:generate:124 - Timeout value connect was 2, but it must be an int, float or None.
+2023-01-16 22:53:05.501 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:53:06.137 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:53:06.144 | INFO     | controllers.generate:_generate_query:114 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an, yêu đời nhiều hơn và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> làm ăn phát tài, vạn sự đại cát 
+2023-01-16 22:53:06.168 | ERROR    | controllers.generate:generate:124 - Timeout value connect was 2, but it must be an int, float or None.
+2023-01-16 22:53:13.755 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:54:10.138 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:54:13.249 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:54:13.256 | INFO     | controllers.generate:_generate_query:113 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, kiếm được thật nhiều tiền và hạnh phúc ngập tràn. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> khôn trong lý tưởng, trưởng thành mọi lĩnh vực 
+2023-01-16 22:54:13.391 | ERROR    | controllers.generate:generate:123 - Timeout value connect was 2, but it must be an int, float or None.
+2023-01-16 22:55:22.673 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:55:34.596 | INFO     | controllers.search:setup:16 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:55:46.612 | INFO     | controllers.search:setup:16 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:55:55.717 | INFO     | controllers.search:setup:16 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:56:45.800 | INFO     | controllers.search:setup:16 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 22:56:58.005 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:57:01.635 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:57:01.640 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui, yêu đời nhiều hơn và kiếm được thật nhiều tiền. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-16 22:57:37.174 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:57:38.557 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:57:38.562 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, luôn luôn yêu đời và tươi trẻ hơn. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> vạn sự như ý, tấn tài tấn lộc, tấn an khang 
+2023-01-16 22:57:53.441 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:57:57.506 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:57:58.909 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:57:58.913 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: yêu đời nhiều hơn, sức khỏe dồi dào và càng ngày càng trẻ trung. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> vạn sự như ý, tỷ sự như mơ, triệu triệu bất ngờ, không chờ cũng đến 
+2023-01-16 22:58:29.066 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:58:54.362 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 22:58:56.691 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 22:58:56.703 | INFO     | controllers.generate:_generate_query:112 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: hạnh phúc ngập tràn, luôn luôn yêu đời và bình an. <LINKING_WORD> <OWN_LEVEL> chúc <NAME> <LEVEL> luôn tự tin và luôn mạnh mẽ để đạt được nhiều thành công trong công việc. 
+2023-01-16 22:59:58.924 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:00:15.488 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:00:17.111 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:00:17.115 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: bình an, sức khỏe dồi dào và yêu đời nhiều hơn 
+2023-01-16 23:00:42.725 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:00:49.385 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:01:05.819 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:01:06.403 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:01:06.406 | INFO     | controllers.generate:_generate_query:128 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tràn đầy niềm vui, kiếm được thật nhiều tiền và hạnh phúc ngập tràn 
+2023-01-16 23:02:20.396 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:02:22.886 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:02:22.894 | INFO     | controllers.generate:_generate_query:128 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: kiếm được thật nhiều tiền, hạnh phúc ngập tràn và mọi chuyện suôn sẻ 
+2023-01-16 23:03:00.311 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:03:15.869 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:03:17.827 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:03:17.835 | INFO     | controllers.generate:_generate_query:128 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: tươi trẻ hơn, luôn luôn yêu đời và kiếm được thật nhiều tiền 
+2023-01-16 23:03:54.055 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:03:55.257 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:03:55.261 | INFO     | controllers.generate:_generate_query:128 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: càng ngày càng trẻ trung, yêu đời nhiều hơn và hạnh phúc ngập tràn 
+2023-01-16 23:04:06.316 | ERROR    | controllers.generate:generate:138 - byte indices must be integers or slices, not str
+2023-01-16 23:04:18.140 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:04:19.808 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:04:19.817 | INFO     | controllers.generate:_generate_query:128 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của Mạnh: an khang thịnh vượng, sức khoẻ dồi dào, sức khỏe dồi dào và luôn luôn yêu đời 
+2023-01-16 23:05:37.775 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:05:44.435 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:06:08.962 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:06:09.924 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:06:09.934 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của chị Mạnh: yêu đời nhiều hơn, làm ăn thuận lợi và kiếm được thật nhiều tiền 
+2023-01-16 23:06:32.175 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:06:32.193 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của chị Mạnh: hạnh phúc ngập tràn và tràn đầy niềm vui 
+2023-01-16 23:06:45.727 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:06:45.745 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của chị Mạnh: hạnh phúc ngập tràn, luôn luôn yêu đời và sức khỏe dồi dào 
+2023-01-16 23:06:54.554 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:06:54.564 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của chị Mạnh: yêu đời nhiều hơn, tươi trẻ hơn và kiếm được thật nhiều tiền 
+2023-01-16 23:07:25.559 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:07:25.570 | INFO     | controllers.generate:_generate_query:129 - Generated query: Tạo câu chúc Tết tới Mạnh. Những mong muốn của chị Mạnh: hạnh phúc ngập tràn, an lành và kiếm được thật nhiều tiền 
+2023-01-16 23:07:58.344 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:08:02.308 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:08:07.835 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:08:08.799 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:08:08.809 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là công việc thăng tiến, sức khỏe dồi dào và hạnh phúc ngập tràn 
+2023-01-16 23:08:13.928 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:08:13.942 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là sức khỏe dồi dào và hạnh phúc ngập tràn 
+2023-01-16 23:08:31.007 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:08:31.018 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là sức khỏe dồi dào, yêu đời nhiều hơn và giàu có 
+2023-01-16 23:08:40.537 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:08:40.552 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là hạnh phúc ngập tràn, bình an và luôn luôn yêu đời 
+2023-01-16 23:08:53.092 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:08:53.101 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là sức khỏe dồi dào và hạnh phúc ngập tràn 
+2023-01-16 23:09:11.755 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:09:11.768 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là sức khỏe dồi dào, hạnh phúc ngập tràn và càng ngày càng trẻ trung 
+2023-01-16 23:09:16.765 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:09:16.775 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là yêu đời nhiều hơn, hạnh phúc ngập tràn và kiếm được thật nhiều tiền 
+2023-01-16 23:09:33.919 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:09:33.952 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là gặp nhiều may mắn, luôn luôn yêu đời và kiếm được thật nhiều tiền 
+2023-01-16 23:09:40.161 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:09:40.171 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là sức khỏe dồi dào và yêu đời nhiều hơn 
+2023-01-16 23:09:53.546 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:09:53.562 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là càng ngày càng trẻ trung và hạnh phúc ngập tràn 
+2023-01-16 23:10:24.370 | ERROR    | controllers.generate:generate:139 - HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=30)
+2023-01-16 23:13:31.495 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:13:31.502 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là hạnh phúc ngập tràn, làm ăn thuận lợi và kiếm được thật nhiều tiền 
+2023-01-16 23:13:46.020 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:13:46.030 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là gặp nhiều may mắn, luôn luôn yêu đời và kiếm được thật nhiều tiền 
+2023-01-16 23:14:18.063 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:14:29.367 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:14:31.154 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:14:31.157 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là yêu đời nhiều hơn, càng ngày càng trẻ trung và hạnh phúc ngập tràn 
+2023-01-16 23:14:45.788 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:14:45.799 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là yêu đời nhiều hơn, càng ngày càng trẻ trung và kiếm được thật nhiều tiền 
+2023-01-16 23:17:21.746 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:17:23.113 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:17:23.118 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là hạnh phúc ngập tràn, yêu đời nhiều hơn và an khang thịnh vượng, sức khoẻ dồi dào 
+2023-01-16 23:17:42.372 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:17:42.382 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là an lành, hạnh phúc ngập tràn và kiếm được thật nhiều tiền 
+2023-01-16 23:17:50.749 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:17:50.762 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là mọi chuyện suôn sẻ, sức khỏe dồi dào và luôn luôn yêu đời 
+2023-01-16 23:18:02.304 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:18:02.316 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là hạnh phúc ngập tràn và công việc thăng tiến 
+2023-01-16 23:18:09.016 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:18:09.026 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị Mạnh là yêu đời nhiều hơn, kiếm được thật nhiều tiền và luôn luôn yêu đời 
+2023-01-16 23:18:48.921 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:18:51.390 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:18:51.400 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của level <NAME> là an khang thịnh vượng, sức khoẻ dồi dào, sức khỏe dồi dào và yêu đời nhiều hơn 
+2023-01-16 23:18:57.838 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:18:57.847 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của level <NAME> là hạnh phúc ngập tràn, sức khỏe dồi dào và yêu đời nhiều hơn 
+2023-01-16 23:19:07.693 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:19:07.705 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của level <NAME> là kiếm được thật nhiều tiền, hạnh phúc ngập tràn và sức khỏe dồi dào 
+2023-01-16 23:19:20.634 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:19:28.685 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:19:30.864 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:19:30.870 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, yêu đời nhiều hơn và hạnh phúc ngập tràn 
+2023-01-16 23:19:50.500 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:19:50.510 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là làm ăn thuận lợi, sức khỏe dồi dào và luôn luôn yêu đời 
+2023-01-16 23:19:53.306 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:19:53.319 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là yêu đời nhiều hơn, tràn đầy niềm vui và kiếm được thật nhiều tiền 
+2023-01-16 23:20:04.582 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:20:04.595 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là yêu đời nhiều hơn và hạnh phúc ngập tràn 
+2023-01-16 23:20:11.082 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:20:11.105 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời và kiếm được thật nhiều tiền 
+2023-01-16 23:23:02.553 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:23:05.042 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:23:05.046 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là sức khỏe dồi dào và hạnh phúc ngập tràn 
+2023-01-16 23:23:13.052 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:23:13.066 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời và sức khỏe dồi dào 
+2023-01-16 23:23:25.477 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:23:25.487 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, tràn đầy niềm vui và sức khỏe dồi dào 
+2023-01-16 23:23:55.733 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:23:55.753 | INFO     | controllers.generate:_generate_query:129 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, hạnh phúc ngập tràn và gặp nhiều may mắn 
+2023-01-16 23:25:50.890 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:26:08.787 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:26:24.093 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:27:16.987 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:28:07.296 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:29:08.075 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:29:09.735 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:29:09.740 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là càng ngày càng trẻ trung và hạnh phúc ngập tràn 
+2023-01-16 23:29:38.203 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:29:39.474 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:29:39.479 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời và hạnh phúc ngập tràn 
+2023-01-16 23:29:48.811 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:29:48.821 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là kiếm được thật nhiều tiền, yêu đời nhiều hơn và giàu có 
+2023-01-16 23:29:55.667 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:29:55.680 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là công việc thăng tiến, yêu đời nhiều hơn và sức khỏe dồi dào 
+2023-01-16 23:30:04.720 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:30:04.733 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, kiếm được thật nhiều tiền và mọi chuyện suôn sẻ 
+2023-01-16 23:30:07.498 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:30:07.507 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là làm ăn thuận lợi, hạnh phúc ngập tràn và yêu đời nhiều hơn 
+2023-01-16 23:30:09.764 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:30:09.777 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là làm ăn thuận lợi, hạnh phúc ngập tràn và sức khỏe dồi dào 
+2023-01-16 23:31:22.820 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:31:26.969 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:31:26.978 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là hạnh phúc ngập tràn, tràn đầy niềm vui và luôn luôn yêu đời 
+2023-01-16 23:31:35.060 | ERROR    | controllers.generate:generate:136 - can only join an iterable
+2023-01-16 23:31:39.098 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:31:39.107 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là hạnh phúc ngập tràn và an lành 
+2023-01-16 23:31:44.403 | ERROR    | controllers.generate:generate:136 - can only join an iterable
+2023-01-16 23:32:21.787 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:32:22.966 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:32:22.973 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là gặp nhiều may mắn, hạnh phúc ngập tràn và sức khỏe dồi dào 
+2023-01-16 23:32:27.834 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:32:27.847 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là yêu đời nhiều hơn, càng ngày càng trẻ trung và sức khỏe dồi dào 
+2023-01-16 23:32:38.072 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:32:38.083 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là yêu đời nhiều hơn, hạnh phúc ngập tràn và luôn luôn yêu đời 
+2023-01-16 23:33:52.473 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:33:53.964 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:33:53.968 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, sức khỏe dồi dào và càng ngày càng trẻ trung 
+2023-01-16 23:33:57.427 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:33:57.436 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, gặp nhiều may mắn và hạnh phúc ngập tràn 
+2023-01-16 23:34:08.959 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:34:08.963 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là gặp nhiều may mắn, kiếm được thật nhiều tiền và hạnh phúc ngập tràn 
+2023-01-16 23:34:19.924 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:34:23.372 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:34:23.380 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là công việc thăng tiến, luôn luôn yêu đời và kiếm được thật nhiều tiền 
+2023-01-16 23:35:22.391 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:35:24.247 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:35:24.264 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là hạnh phúc ngập tràn, gặp nhiều may mắn và kiếm được thật nhiều tiền 
+2023-01-16 23:35:32.191 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:35:32.204 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, công việc thăng tiến và sức khỏe dồi dào 
+2023-01-16 23:36:00.976 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:36:02.083 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:36:02.091 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là an khang thịnh vượng, sức khoẻ dồi dào, hạnh phúc ngập tràn và sức khỏe dồi dào 
+2023-01-16 23:36:05.538 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:36:05.552 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là luôn luôn yêu đời, yêu đời nhiều hơn và sức khỏe dồi dào 
+2023-01-16 23:36:44.905 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:36:46.119 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:36:46.124 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới <NAME> với mong muốn của chị <NAME> là tươi trẻ hơn và hạnh phúc ngập tràn 
+2023-01-16 23:38:16.568 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:38:22.121 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:38:23.586 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học giỏi, đẹp trai
+2023-01-16 23:38:23.597 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là kiếm được thật nhiều tiền, luôn luôn yêu đời và yêu đời nhiều hơn 
+2023-01-16 23:38:42.123 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:38:42.134 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là yêu đời nhiều hơn, công việc thăng tiến và an lành 
+2023-01-16 23:38:53.419 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:38:53.434 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là hạnh phúc ngập tràn, bình an và làm ăn thuận lợi 
+2023-01-16 23:39:06.871 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:39:06.883 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là sức khỏe dồi dào, bình an và làm ăn thuận lợi 
+2023-01-16 23:39:18.650 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:39:18.661 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là tràn đầy niềm vui, gặp nhiều may mắn và bình an 
+2023-01-16 23:39:26.528 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:39:26.544 | INFO     | controllers.generate:_generate_query:124 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là kiếm được thật nhiều tiền, càng ngày càng trẻ trung và giàu có 
+2023-01-16 23:40:41.469 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:40:45.422 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:40:45.423 | INFO     | controllers.generate:_generate_query:120 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là công việc thăng tiến, càng ngày càng trẻ trung và học hành giỏi giang 
+2023-01-16 23:40:55.850 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:40:55.852 | INFO     | controllers.generate:_generate_query:120 - Generated query: Chúc Tết tới Mạnh với mong muốn của chị là tươi trẻ hơn, bình an và học hành giỏi giang 
+2023-01-16 23:42:22.384 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:42:24.001 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:42:24.003 | INFO     | controllers.generate:_generate_query:120 - Generated query: Chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn kiếm được thật nhiều tiền, sức khỏe dồi dào và học hành giỏi giang 
+2023-01-16 23:42:39.924 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:42:41.435 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:42:41.436 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn tươi trẻ hơn, học hành giỏi giang và an khang thịnh vượng, sức khoẻ dồi dào 
+2023-01-16 23:43:01.435 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:43:01.436 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn công việc thăng tiến, học hành giỏi giang và yêu đời nhiều hơn 
+2023-01-16 23:43:29.895 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang
+2023-01-16 23:43:29.898 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn tươi trẻ hơn, học hành giỏi giang và mọi chuyện suôn sẻ 
+2023-01-16 23:44:02.978 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:44:18.244 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = học hành giỏi giang, xinh gái
+2023-01-16 23:44:18.246 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn  xinh gái, học hành giỏi giang và giàu có 
+2023-01-16 23:44:51.388 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = kinh doanh Quần áo thuận lợi
+2023-01-16 23:44:51.390 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn kinh doanh Quần áo thuận lợi, giàu có và luôn luôn yêu đời 
+2023-01-16 23:45:28.548 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = kinh doanh thuận lợi
+2023-01-16 23:45:28.551 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn luôn luôn yêu đời, kinh doanh thuận lợi và kiếm được thật nhiều tiền 
+2023-01-16 23:45:41.443 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = sớm lên làm sếp
+2023-01-16 23:45:41.445 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết tới Mạnh, trong năm mới chị Mạnh rất mong muốn mọi chuyện suôn sẻ, càng ngày càng trẻ trung và sớm lên làm sếp 
+2023-01-16 23:46:23.084 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:46:26.326 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = sớm lên làm sếp
+2023-01-16 23:46:26.327 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới chị Mạnh rất mong muốn bình an, tràn đầy niềm vui và sớm lên làm sếp 
+2023-01-16 23:49:43.570 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:49:55.894 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:50:04.685 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:50:10.078 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:50:20.983 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = sớm lên làm sếp
+2023-01-16 23:50:20.984 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới chị Mạnh rất mong muốn mọi chuyện suôn sẻ, sớm lên làm sếp và tràn đầy niềm vui 
+2023-01-16 23:51:25.317 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:51:49.176 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:51:56.161 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 30
+2023-01-16 23:51:57.908 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = chị, expections = sớm lên làm sếp
+2023-01-16 23:51:57.908 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới chị Mạnh rất mong muốn tràn đầy niềm vui, sớm lên làm sếp và yêu đời nhiều hơn 
+2023-01-16 23:52:50.988 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = bạn, expections = sớm lên làm sếp
+2023-01-16 23:52:50.989 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới bạn Mạnh rất mong muốn công việc thăng tiến, sớm lên làm sếp và làm ăn thuận lợi 
+2023-01-16 23:53:23.494 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = bạn, expections = sớm lên làm sếp
+2023-01-16 23:53:23.496 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới bạn Mạnh rất mong muốn an lành, tràn đầy niềm vui và sớm lên làm sếp 
+2023-01-16 23:53:52.037 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 3
+2023-01-16 23:53:52.775 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = bạn, expections = sớm lên làm sếp
+2023-01-16 23:53:52.776 | INFO     | controllers.generate:_generate_query:120 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới bạn Mạnh rất mong muốn an lành, gặp nhiều may mắn và sớm lên làm sếp 
+2023-01-16 23:53:56.428 | ERROR    | controllers.generate:generate:135 - HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=3)
+2023-01-16 23:54:50.885 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 3
+2023-01-16 23:55:20.607 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 3
+2023-01-16 23:55:22.318 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = bạn, expections = sớm lên làm sếp
+2023-01-16 23:55:22.319 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới bạn Mạnh rất mong muốn an khang thịnh vượng, sức khoẻ dồi dào, càng ngày càng trẻ trung và sớm lên làm sếp 
+2023-01-16 23:55:25.912 | ERROR    | controllers.generate:generate:134 - HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=3)
+2023-01-16 23:55:37.180 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = bạn, expections = sớm lên làm sếp
+2023-01-16 23:55:37.182 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới bạn Mạnh rất mong muốn mọi chuyện suôn sẻ, giàu có và sớm lên làm sếp 
+2023-01-16 23:55:40.808 | ERROR    | controllers.generate:generate:134 - HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=3)
+2023-01-16 23:58:07.079 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 3
+2023-01-16 23:58:09.820 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 3
+2023-01-16 23:58:27.608 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 2
+2023-01-16 23:58:44.791 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:00:46.593 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:01:03.562 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:01:22.758 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:01:22.759 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn tươi trẻ hơn,  sớm ra trường và học hành giỏi giang 
+2023-01-17 00:01:22.955 | ERROR    | controllers.generate:generate:131 - Timeout value connect was 10, but it must be an int, float or None.
+2023-01-17 00:02:14.378 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:02:15.466 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:02:15.466 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn học hành giỏi giang,  sớm ra trường và bình an 
+2023-01-17 00:02:15.485 | ERROR    | controllers.generate:generate:131 - Timeout value connect was 10, but it must be an int, float or None.
+2023-01-17 00:02:18.327 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:02:18.327 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn học hành giỏi giang, làm ăn thuận lợi và  sớm ra trường 
+2023-01-17 00:02:18.332 | ERROR    | controllers.generate:generate:131 - Timeout value connect was 10, but it must be an int, float or None.
+2023-01-17 00:02:44.155 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:02:46.009 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:02:46.010 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn học hành giỏi giang, hạnh phúc ngập tràn và  sớm ra trường 
+2023-01-17 00:03:18.361 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:03:18.362 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn học hành giỏi giang, luôn luôn yêu đời và  sớm ra trường 
+2023-01-17 00:03:43.549 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:03:59.090 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:04:14.410 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:04:16.331 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:04:16.332 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn mọi chuyện suôn sẻ,  sớm ra trường và học hành giỏi giang 
+2023-01-17 00:04:53.594 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:06:08.034 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:06:08.950 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:06:12.926 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:06:12.927 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, gặp nhiều may mắn và học hành giỏi giang 
+2023-01-17 00:06:23.833 | ERROR    | controllers.generate:generate:131 - HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=10)
+2023-01-17 00:06:45.541 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 10
+2023-01-17 00:08:26.660 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:08:26.662 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn sức khỏe dồi dào,  sớm ra trường và học hành giỏi giang 
+2023-01-17 00:08:54.674 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:08:55.684 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:08:55.685 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, tràn đầy niềm vui và học hành giỏi giang 
+2023-01-17 00:10:03.091 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:10:05.696 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:10:05.697 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, càng ngày càng trẻ trung và học hành giỏi giang 
+2023-01-17 00:10:26.917 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:10:26.919 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, làm ăn thuận lợi và học hành giỏi giang 
+2023-01-17 00:10:53.928 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:10:53.930 | INFO     | controllers.generate:_generate_query:116 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, càng ngày càng trẻ trung và học hành giỏi giang 
+2023-01-17 00:14:29.498 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:15:08.416 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:15:16.579 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:15:21.577 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:15:21.578 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn sức khỏe dồi dào, học hành giỏi giang và  sớm ra trường 
+2023-01-17 00:16:55.737 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:17:01.775 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:17:21.636 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:17:21.637 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn bình an,  sớm ra trường và học hành giỏi giang 
+2023-01-17 00:18:10.595 | INFO     | controllers.search:setup:15 - host = https://api.openai.com/v1/completions, token = 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, timeout = 20
+2023-01-17 00:18:16.826 | INFO     | app.main:tet_generate:31 - Request: name = Mạnh, level = anh, expections = học hành giỏi giang, sớm ra trường
+2023-01-17 00:18:16.828 | INFO     | controllers.generate:_generate_query:119 - Generated query: Tạo lời chúc Tết 2023 tới Mạnh, trong năm mới anh Mạnh rất mong muốn  sớm ra trường, sức khỏe dồi dào và học hành giỏi giang 

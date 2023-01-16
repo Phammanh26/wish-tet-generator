@@ -32,6 +32,8 @@ def tet_generate(name: str,  level: str, expections: str):
     expections = expections.split(",")
     generated_results = tetwish_generator.generate(name, level, expections)
     return {
-        "name": name,
-        "level": level,
-        "wish_tet": generated_results}
+        "status": "success",
+        "errors": {
+        },
+        "msg":generated_results
+    } 
