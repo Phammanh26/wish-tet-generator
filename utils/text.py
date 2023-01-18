@@ -34,6 +34,7 @@ def pharaphase_result(result, name, level):
         name = f"{level} {name}"
         own_level.extend(["cháu"])
         result = result.replace("<NAME>", f"{level} {name}")
+        result = result.replace("<LEVEL>", random.choice([f"{level} {name}", f"{level}"]))
 
     elif level in ['bố', 'mẹ']:
         name = level
@@ -54,6 +55,7 @@ def pharaphase_result(result, name, level):
     result = result.replace(f"May {level}", f"Mong {level}")
     result = result.replace(f"May {level}", f"Mong {level}")
     result = result.replace(f"!.", f".")
+    result = result.replace(f"..", f".")
     
     result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
     result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
@@ -67,11 +69,11 @@ def pre_processing(text):
     pass
 
 
-
+import re
 def post_processing(text):
     # tạo đoạn văn formal or not?
     text = text.replace("\n", "")
-    text = text.replace("  ", " ")
+    text = re.sub(' +', ' ', text)
     return text
 
 def pharaphase_wishing_text(text):
