@@ -65,5 +65,5 @@ async def tet_generate(data: CustomForm, request: Request):
         "status": "success",
         "error": {
         },
-        "msg":[]
+        "msg": generated_results
     } 
