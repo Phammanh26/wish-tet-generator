@@ -85,6 +85,9 @@ def post_processing(text):
     # tạo đoạn văn formal or not?
     text = text.replace("\n", "")
     text = re.sub(' +', ' ', text)
+
+    if text[-1] != ".":
+        text = text + "."
     return text
 
 def pharaphase_wishing_text(text):

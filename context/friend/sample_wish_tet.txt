@@ -1,12 +1,12 @@
-chúc <NAME> <EXPECT>!
-chúc <NAME> có một năm <EXPECT>!
-chúc bạn <EXPECT>. Năm mới vui vẻ nhé bạn hiền!!!
-mình xin gửi lời chúc tới <NAME>, chúc <NAME> <EXPECT>. Có một năm thành công rực rỡ nhé!
-chúc <NAME> có một năm mới <EXPECT> !!!
-năm mới vui vẻ nhé <NAME> chúc bạn có một năm <EXPECT>!!!!
-tôi chúc bạn có một năm  <EXPECT>. Chúc bạn hiền ăn Tết vẻ vui!!!
-tôi chúc bạn có một năm  <EXPECT>. Ăn Tết vui vẻ nhé bạn hiền!
-tôi hy vọng năm nay <NAME> có một năm<EXPECT>. Chúc <NAME> ăn Tết vui vẻ!
-mong một năm đến với bạn <EXPECT>. Ăn Tết vui vẻ nhé <NAME>!
-chúc bạn <EXPECT>. 
-chúc <NAME> có một năm <EXPECT>!
+chúc <NAME> <EXPECT>
+chúc <NAME> có một năm <EXPECT>
+chúc bạn <EXPECT>
+mình xin gửi lời chúc tới <NAME>, chúc <NAME> <EXPECT>
+chúc <NAME> có một năm mới <EXPECT>
+năm mới vui vẻ nhé <NAME> chúc bạn có một năm <EXPECT>
+tôi chúc bạn có một năm  <EXPECT>
+tôi chúc bạn có một năm  <EXPECT>
+tôi hy vọng năm nay <NAME> có một năm<EXPECT>
+mong một năm đến với bạn <EXPECT>
+chúc bạn <EXPECT>
+chúc <NAME> có một năm <EXPECT>
