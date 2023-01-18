@@ -6,12 +6,15 @@ import configs
 from loguru import logger
 
 # API
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.param_functions import Depends
 from typing import List, Dict
 from pydantic import BaseModel
-
+from slowapi.errors import RateLimitExceeded
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from fastapi.responses import PlainTextResponse
 import logging
 
 # Start server
@@ -25,6 +28,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Set limit request
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+
 # Setup logging
 handler = logging.FileHandler(filename='logs/file_log.log')
 logger.add(handler)
@@ -32,12 +41,10 @@ logger.add(handler)
 # generator module
 tetwish_generator = TetWishGenerator(config = configs, timeout=configs.timeout)
 
-@app.get("/")
+
 def get_info():
     version = configs.version
     return {"version": f"{version}"}
-
-
 
 class CustomForm(BaseModel):
     level: str
@@ -45,11 +52,13 @@ class CustomForm(BaseModel):
     expections:  List[str]
 
 @app.post("/generator/TetAI/new")
-def tet_generate(data: CustomForm):
-    generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
+@limiter.limit("10/minute")
+async def tet_generate(data: CustomForm, request: Request):
+    # generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
+    generated_results ="test"
     return {
         "status": "success",
-        "errors": {
+        "error": {
         },
         "msg":generated_results
     } 
