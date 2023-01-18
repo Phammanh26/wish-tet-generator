@@ -134,6 +134,7 @@ class TetWishGenerator:
         return generated_query
 
     def generate(self, name, level = 'bạn', expections = []):
+        
         result  = "Chúc mừng năm mới 2023!"
         try:
             question_query = self._generate_query(name, level, expections)

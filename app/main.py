@@ -16,7 +16,7 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from fastapi.responses import PlainTextResponse
 import logging
-
+import string
 # Start server
 app = FastAPI(host = configs.host_server, port = configs.port_server)
 # Setup CORS
@@ -54,7 +54,13 @@ class CustomForm(BaseModel):
 @app.post("/generator/TetAI/new")
 @limiter.limit("10/minute")
 async def tet_generate(data: CustomForm, request: Request):
-    generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
+
+    
+    try:
+        generated_results = tetwish_generator.generate(string.capwrods(data.name), data.level.lower(), data.expections)
+    except Exception as e:
+        logger.error(e)
+        generated_results = "Chúc mừng năm mới 2023!"
     # generated_results ="test"
     return {
         "status": "success",
