@@ -57,7 +57,7 @@ async def tet_generate(data: CustomForm, request: Request):
 
     
     try:
-        generated_results = tetwish_generator.generate(string.capwrods(data.name), data.level.lower(), data.expections)
+        generated_results = tetwish_generator.generate(string.capwords(data.name), data.level.lower(), data.expections)
     except Exception as e:
         logger.error(e)
         generated_results = "Chúc mừng năm mới 2023!"
