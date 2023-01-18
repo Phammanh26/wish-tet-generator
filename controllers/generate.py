@@ -1,4 +1,5 @@
 import random
+import re
 from loguru import logger
 import configs
 from controllers.search import GPTSearcher
@@ -17,7 +18,8 @@ pre_sentence = ["Tết đến xuân về, ",
                 "Nhân dịp Tết đến xuân sang, ",
             ]
 
-black_list_words = ["Thiên Chúa", "Chúa", "bổ ích"]
+
+
 def generate_expection(exp_vocab,  expections, anomalous_level = False):
     r_expection = ""
     _expections = []
@@ -98,6 +100,21 @@ def generate_backup(name, level, expections):
     return wish_tet_result
 
 
+def customize_search_result(result):
+    customized_result = ""
+
+    black_list_words = ["Thiên Chúa", "Chúa", "bổ ích"]
+    black_list_character = [":"]
+    sub_result_list = result.split(". ")
+
+    _results = []
+    for rs in sub_result_list:
+        if len(re.findall(r"(?=("+'|'.join(black_list_words)+r"))", rs)) == 0 and len(re.findall(r"(?=("+'|'.join(black_list_character)+r"))", rs)) == 0:
+            _results.append(rs)
+
+    customized_result += ". ".join(_results)
+    return customized_result
+
 class TetWishGenerator:
     
     def __init__(self, config, timeout = 30):
@@ -113,26 +130,28 @@ class TetWishGenerator:
         
     def _generate_query(self, name,level,  expections):
         ex_context = generate_expection_1(expections = expections, exp_vocab = configs.EXPECTIONS_DEFAULT)
-        generated_query = f"Tạo lời chúc Tết 2023 tới {name}, trong năm mới {level} {name} rất mong muốn {ex_context}"
+        generated_query = f"Tạo 1 lời chúc Tết 2023 ý nghĩa tới {name}, trong năm mới {level} {name} rất mong muốn {ex_context}"
         return generated_query
 
-    def generate(self, name = "", level = 'bạn', expections = []):
+    def generate(self, name, level = 'bạn', expections = []):
         result  = "Chúc mừng năm mới 2023!"
         try:
             question_query = self._generate_query(name, level, expections)
             result = self.searcher.search(query_text = question_query)
-            
+            logger.debug(result)
+            result = result.replace(name, f"{level} {name}")
+            result = customize_search_result(result)
+            logger.debug(f"customize_search_result(result) {customize_search_result}")
+
+            result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
             if len(result.split(" "))<= 5:
                 result = generate_backup(name, level, expections)
-            else:
-                result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
+            
+            if len(result.split(". ")) < 2:
                 post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
                 result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
-
-            for _black in black_list_words:
-                if _black in result:
-                    result = generate_backup(name, level, expections)
-        
+            
+                
         except Exception as e:
             logger.error(e)
             result = generate_backup(name, level, expections)

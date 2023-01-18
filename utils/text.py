@@ -40,10 +40,27 @@ def pharaphase_result(result, name, level):
         own_level.extend(["con"])
         result = result.replace("<NAME>", f"{level}")
         result = result.replace("<LEVEL>", level)
+    else:
+        result = result.replace("<NAME>", f"{level}")
+        result = result.replace("<LEVEL>", level)
 
     result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,"]))
     result = result.replace("<LEVEL_1>", level)
     result = result.replace("<OWN_LEVEL>", random.choice(own_level))
+    result = result.replace(f"{level} {level}", level)
+    result = result.replace(f"{name} {name}", name)
+    result = result.replace(f"sẽ được", "sẽ có được")
+    result = result.replace(f"luôn được", "sẽ có được")
+    result = result.replace(f"May {level}", f"Mong {level}")
+    result = result.replace(f"May {level}", f"Mong {level}")
+    result = result.replace(f"!.", f".")
+    
+    result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
+    result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
+    
+
+    
+    
     return  result
 
 def pre_processing(text):
