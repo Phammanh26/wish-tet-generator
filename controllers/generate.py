@@ -34,6 +34,8 @@ def generate_expection(exp_vocab,  expections, anomalous_level = False):
     unique_expections = list(set(_expections))
     r_expection = ", ".join(unique_expections[:-1])
     r_expection += " và " + unique_expections[-1]
+
+    print("r_expection", r_expection)
     return r_expection
 
 
@@ -49,6 +51,15 @@ def generate_expection_1(exp_vocab,  expections, anomalous_level = False):
     return r_expection
 
 
+def generate_final_expect(level):
+    r_expection = ""
+    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME>"
+    if level in ['ông', 'bà']: 
+        r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_ONG_BA, 1)[-1]
+    else:
+        r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
+    return r_expection
+
 def generate_backup(name, level, expections):
     vocab, wish_tet_list = [], []
     try:
@@ -58,6 +69,19 @@ def generate_backup(name, level, expections):
         elif level in ['anh', 'chị']:
             name = f"{level} {name}"
             wish_tet_list = configs.ANH_CHI_BACKUP_LIST
+
+        elif level in ['ông', 'bà']:
+            vocab = [
+                "sống lâu trăm tuổi",
+                "có thật nhiều sức khoẻ",
+                "hạnh phúc bên con cháu",
+                "có một cái tết vui vẻ",
+                "tuổi già hạnh phúc, bình yên",
+                "giữ gìn sức khỏe, hân hoan tuổi già",
+                "trẻ mãi không già"
+
+                ]
+            wish_tet_list = configs.ONG_BA_BACKUP_LIST
 
         elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
             name = f"{level} {name}"
@@ -80,8 +104,13 @@ def generate_backup(name, level, expections):
                 "luôn luôn tươi trẻ",
                 "hạnh phúc bên bố và các con"
                 ]
-       
-        r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
+
+        if level in ['ông', 'bà']: 
+            r_expection = generate_expection(expections = expections, exp_vocab=vocab)
+        
+        else: 
+            r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
+
         wish_tet_list = random.choice(wish_tet_list)
         wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
     
@@ -94,10 +123,8 @@ def generate_backup(name, level, expections):
         wish_tet_list = random.choice(configs.BACKUP_LIST)
         wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
     
-   
-    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME>"
-    r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
     wish_tet_result = wish_tet_result.replace("<EXPECT>", r_expection)
+    
     return wish_tet_result
 
 
@@ -151,13 +178,11 @@ class TetWishGenerator:
                 result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
                 if len(result.split(" "))<= 5:
                     result = generate_backup(name, level, expections)
-                
-                if len(result.split(". ")) < 2:
-                    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
-                    result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
             
             else:
                 result = generate_backup(name, level, expections)
+
+            
 
             resutls.append(result)
         except Exception as e:
@@ -171,7 +196,12 @@ class TetWishGenerator:
             ## make more 2 result
             resutls.append(generate_backup(name, level, expections))
             for result in resutls:
+                
+                if len(result.split(". ")) < 2:
+                    r_expection = generate_final_expect(level)
+                    result += r_expection
                 pharaphased_result = pharaphase_result(result, name, level)
                 result = post_processing(pharaphased_result)
+                
                 outputs.append(result)
         return outputs

@@ -20,6 +20,10 @@ with open("context/expects/general.txt", "r") as f:
 with open("context/expects/general_special.txt", "r") as f:
         SPECIAL_EXPECTIONS_DEFAULT = [exp.replace("\n", "") for exp in  f.readlines()]
 
+
+with open("context/ong_ba/sample_special.txt", "r") as f:
+        SPECIAL_EXPECTIONS_ONG_BA = [exp.replace("\n", "") for exp in  f.readlines()]
+
 with open("context/co_di_chu_bac/sample.txt", "r") as f:
         COCHU_BACKUP_LIST = f.readlines()
 
@@ -32,5 +36,12 @@ with open("context/anh_chi/sample.txt", "r") as f:
 with open("context/bo_me/sample.txt", "r") as f:
         BO_ME_BACKUP_LIST = f.readlines()
 
+
+with open("context/ong_ba/sample.txt", "r") as f:
+        ONG_BA_BACKUP_LIST = f.readlines()
+
 with open("context/backup_sample.txt", "r") as f:
         BACKUP_LIST = f.readlines()
+
+
+        

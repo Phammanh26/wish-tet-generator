@@ -1,8 +1,3 @@
-Xuân tới mang nhiều hy vọng nhà nhà ấm no, kính chúc ông bà sống lâu trăm tuổi.
-Lại một mùa xuân mới đã tới, cháu chúc ông bà dồi dào sức khỏe, sống vui vẻ bên con cháu
-
-5. Cháu chúc ông bà năm mới xuân sang thật nhiều sức khoẻ và hạnh phúc bên con cháu.
-
-6. Kính chúc ông bà mạnh khỏe, sống lâu trăm tuổi.
-
-7. Nhân dịp năm mới, cháu chúc ông bà bốn mùa mạnh khoẻ, quanh năm vui vẻ, có một cái tết hạnh phúc bên con cháu. Cháu yêu ông bà.
+kính chúc <LEVEL> <EXPECT>
+lại một mùa xuân mới đã tới, cháu chúc <LEVEL> <EXPECT>
+cháu chúc <LEVEL> năm mới xuân sang  <EXPECT>

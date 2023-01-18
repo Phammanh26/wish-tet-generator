@@ -29,6 +29,14 @@ def pharaphase_result(result, name, level):
         result = result.replace("<LEVEL>", level)
         result = result.replace("<NAME>", f"{level} {name}")
 
+
+    elif level in ['ông', 'bà']:
+        own_level.extend(["cháu"])
+        result = result.replace("<LEVEL>", level)
+        result = result.replace("<NAME>", f"")
+        result = result.replace(f"{name}", f"")
+
+
     elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
         name = f"{level} {name}"
         own_level.extend(["cháu"])
@@ -60,6 +68,8 @@ def pharaphase_result(result, name, level):
     result = result.replace(f"May {level}", f"Mong {level}")
     result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
     result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
+    result = result.replace(f"khỏe mạnh mẽ", f"khỏe mạnh")
+    
     
     result = result.replace(f"!.", f".")
     result = result.replace(f"..", f".")
