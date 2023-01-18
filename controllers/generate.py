@@ -192,7 +192,7 @@ class TetWishGenerator:
         finally:
             outputs = []
             ## make more 2 result
-            for result in 2 - len(resutls):
+            for result in range(3 - len(resutls)):
                 resutls.append(generate_backup(name, level, expections))
             
             for result in resutls:
