@@ -84,6 +84,7 @@ def generate_backup(name, level, expections):
         r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
         wish_tet_list = random.choice(wish_tet_list)
         wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
+    
     except Exception as e:
         logger.error(e)
         r_expection = generate_expection(
@@ -133,31 +134,44 @@ class TetWishGenerator:
         generated_query = f"Tạo 1 lời chúc Tết 2023 ý nghĩa tới {name}, trong năm mới {level} {name} rất mong muốn {ex_context}"
         return generated_query
 
-    def generate(self, name, level = 'bạn', expections = []):
-        
-        result  = "Chúc mừng năm mới 2023!"
-        try:
-            question_query = self._generate_query(name, level, expections)
-            result = self.searcher.search(query_text = question_query)
-            logger.debug(result)
-            result = result.replace(name, f"{level} {name}")
-            result = customize_search_result(result)
-            logger.debug(f"customize_search_result(result) {customize_search_result}")
+    def generate(self, name, level, expections = []):
 
-            result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
-            if len(result.split(" "))<= 5:
-                result = generate_backup(name, level, expections)
-            
-            if len(result.split(". ")) < 2:
-                post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
-                result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
-            
+        resutls = []
+        result = ""
+        logger.debug(f"level {level}")
+        try:
+            if level != "" and level.strip() != "":
+                question_query = self._generate_query(name, level, expections)
+                result = self.searcher.search(query_text = question_query)
+                logger.debug(result)
+                result = result.replace(name, f"{level} {name}")
+                result = customize_search_result(result)
+                logger.debug(f"customize_search_result(result) {customize_search_result}")
+
+                result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
+                if len(result.split(" "))<= 5:
+                    result = generate_backup(name, level, expections)
                 
+                if len(result.split(". ")) < 2:
+                    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <LEVEL>"
+                    result += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
+            
+            else:
+                result = generate_backup(name, level, expections)
+
+            resutls.append(result)
         except Exception as e:
             logger.error(e)
             result = generate_backup(name, level, expections)
         
         finally:
-            pharaphased_result = pharaphase_result(result, name, level)
-            result = post_processing(pharaphased_result)
-        return result
+            outputs = []
+            ## make more 2 result
+            resutls.append(generate_backup(name, level, expections))
+            ## make more 2 result
+            resutls.append(generate_backup(name, level, expections))
+            for result in resutls:
+                pharaphased_result = pharaphase_result(result, name, level)
+                result = post_processing(pharaphased_result)
+                outputs.append(result)
+        return outputs
