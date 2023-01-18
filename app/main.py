@@ -54,8 +54,8 @@ class CustomForm(BaseModel):
 @app.post("/generator/TetAI/new")
 @limiter.limit("10/minute")
 async def tet_generate(data: CustomForm, request: Request):
-    # generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
-    generated_results ="test"
+    generated_results = tetwish_generator.generate(data.name, data.level, data.expections)
+    # generated_results ="test"
     return {
         "status": "success",
         "error": {
