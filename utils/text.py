@@ -28,6 +28,7 @@ def pharaphase_result(result, name, level):
         own_level.extend(["em"])
         result = result.replace("<LEVEL>", level)
         result = result.replace("<NAME>", f"{level} {name}")
+        result = result.replace("bạn", f"{level}")
 
 
     elif level in ['ông', 'bà']:
@@ -35,6 +36,7 @@ def pharaphase_result(result, name, level):
         result = result.replace("<LEVEL>", level)
         result = result.replace("<NAME>", f"")
         result = result.replace(f"{name}", f"")
+        result = result.replace("bạn", f"{level}")
 
 
     elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
@@ -42,11 +44,13 @@ def pharaphase_result(result, name, level):
         own_level.extend(["cháu"])
         result = result.replace("<NAME>", f"{level} {name}")
         result = result.replace("<LEVEL>", random.choice([f"{level} {name}", f"{level}"]))
+        result = result.replace("bạn", f"{level}")
 
     elif level in ['bố', 'mẹ']:
         name = level
         own_level.extend(["con"])
         result = result.replace("<NAME>", f"{level}")
+        result = result.replace("bạn", f"{level}")
 
         if level.strip() != "":
             result = result.replace("<LEVEL>", level)
@@ -54,6 +58,7 @@ def pharaphase_result(result, name, level):
     else:
         result = result.replace("<NAME>", f"{level}")
         result = result.replace("<LEVEL>", level)
+        result = result.replace("bạn", f"{level}")
 
     result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,"]))
     result = result.replace("<LEVEL_1>", level)
