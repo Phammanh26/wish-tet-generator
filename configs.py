@@ -13,34 +13,7 @@ token =   os.getenv("CHATGPT_TOKEN", None)
 host_server = os.getenv("HOST_SERVER", None)
 port_server =   os.getenv("PORT_SERVER", None)
 
-with open("context/expects/general.txt", "r") as f:
-        EXPECTIONS_DEFAULT = [exp.replace("\n", "") for exp in f.readlines()]
 
-with open("context/expects/general_special.txt", "r") as f:
-        SPECIAL_EXPECTIONS = [exp.replace("\n", "") for exp in  f.readlines()]
-
-
-with open("context/ong_ba/sample_special.txt", "r") as f:
-        SPECIAL_EXPECTIONS_ONG_BA = [exp.replace("\n", "") for exp in  f.readlines()]
-
-with open("context/co_di_chu_bac/sample.txt", "r") as f:
-        COCHU_BACKUP_LIST = f.readlines()
-
-with open("context/friend/sample_wish_tet.txt", "r") as f:
-        FRIEND_BACKUP_LIST = f.readlines()
-
-with open("context/anh_chi/sample.txt", "r") as f:
-        ANH_CHI_BACKUP_LIST = f.readlines()
-
-with open("context/bo_me/sample.txt", "r") as f:
-        BO_ME_BACKUP_LIST = f.readlines()
-
-
-with open("context/ong_ba/sample.txt", "r") as f:
-        ONG_BA_BACKUP_LIST = f.readlines()
-
-with open("context/backup_sample.txt", "r") as f:
-        BACKUP_LIST = f.readlines()
 
 with open("database/general_expections.txt", "r") as f:
         GENERAL_EXPECTIONS = [exp.replace("\n", "") for exp in f.readlines()]
