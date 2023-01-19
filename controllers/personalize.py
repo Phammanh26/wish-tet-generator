@@ -29,7 +29,7 @@ class PersonalWisher():
 
         if self.level in ['ông', 'bà']:
             _list_own_level = ["cháu", "con"]
-            self.own_level = random.sample(_list_own_level, 1)
+            self.own_level = random.sample(_list_own_level, 1)[0]
             self.special_expections = configs.SPECIAL_ONGBA_EXPECTIONS + configs.SPECIAL_BA_EXPECTIONS
             
 
@@ -49,10 +49,10 @@ class PersonalWisher():
             self.own_level = random.sample(_list_own_level, 1)[0]
             self.nature_names = [f"{self.level} {self.name}", f"{self.level}"]
             
-            if self.level == 'anh':
-                self.special_expections = configs.SPECIAL_ANH_EXPECTIONS
-            else:
-                self.special_expections = configs.SPECIAL_CHI_EXPECTIONS
+            # if self.level == 'anh':
+            #     self.special_expections = configs.SPECIAL_ANH_EXPECTIONS
+            # else:
+            #     self.special_expections = configs.SPECIAL_CHI_EXPECTIONS
         
         elif self.level in ['em']:
             self.nature_names = [f"{self.level} {self.name}", f"{self.level}", f"{self.name}", "mày", "m"]
@@ -70,8 +70,8 @@ class PersonalWisher():
 
         elif self.level in ['thầy giáo']:
             self.own_level = "em"
-            self.special_expections = configs.SPECIAL_THAYGIAO_EXPECTIONS
+            # self.special_expections = configs.SPECIAL_THAYGIAO_EXPECTIONS
 
         elif self.level in ['cô giáo']:
             self.own_level = "em"
-            self.special_expections = configs.SPECIAL_COGIAO_EXPECTIONS
+            # self.special_expections = configs.SPECIAL_COGIAO_EXPECTIONS
