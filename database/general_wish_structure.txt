@@ -1,0 +1,7 @@
+chúc <NAME> và gia đình <EXPECT>
+chúc <NAME> và gia đình có một năm <EXPECT>
+chúc <NAME> và gia đình có một năm mới <EXPECT>
+hy vọng năm nay <NAME> và gia đình có một năm <EXPECT>
+hy vọng năm mới <NAME> và gia đình có một năm <EXPECT>
+hy vọng <NAME> và gia đình có một năm <EXPECT>
+kính chúc <NAME> và gia đình có một năm mới <EXPECT>

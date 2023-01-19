@@ -1,3 +1,0 @@
-kính chúc <LEVEL> <EXPECT>
-lại một mùa xuân mới đã tới, cháu chúc <LEVEL> <EXPECT>
-cháu chúc <LEVEL> năm mới xuân sang  <EXPECT>

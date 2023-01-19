@@ -3,205 +3,144 @@ import re
 from loguru import logger
 import configs
 from controllers.search import GPTSearcher
-from utils.text import get_text_topk, pharaphase_result, post_processing
-from utils.common import listComplementElements
+from utils.text import get_text_topk, pharaphase_result, post_processing, pharaphase_search_result
+from controllers.personalize import PersonalWisher
 
-pre_sentence = ["Tết đến xuân về, ", 
-                "2023 đã đến, ", 
-                "Nhân dịp đầu xuân, ", 
-                "Đầu xuân năm mới, ", 
-                "Năm mới đến rồi, ", 
-                "Nhân dịp đầu năm mới, ", 
-                "Đầu năm, ", 
-                "Đầu xuân, ", 
-                "Nhân dịp đầu xuân năm mới, ", 
-                "Nhân dịp Tết đến xuân sang, ",
-            ]
-
-
-
-def generate_expection(exp_vocab,  expections, anomalous_level = False):
+def genernate_expection(personlize_wish: PersonalWisher):
     r_expection = ""
-    _expections = []
-    for expection in expections:
-        expection_results = get_text_topk(expection, exp_vocab, 3)
-        expection_results = listComplementElements(expection_results, _expections)
-        _expections.extend([random.sample(expection_results, 1)[-1][0]])
+    expections = []
+    for _expection in personlize_wish.taker_expections:
+        _expections = get_text_topk(_expection, personlize_wish.general_expections, 3)
+        expections.extend(_expections)
     
-    if _expections == [] or len(_expections) < 3:
-        _expections.extend(random.sample(exp_vocab, 3 - len(_expections)))
+    if len(list(set(expections))) < 3:
+        expections.extend(random.sample(personlize_wish.general_expections, 5 - len(expections)))
 
-    unique_expections = list(set(_expections))
-    r_expection = ", ".join(unique_expections[:-1])
-    r_expection += " và " + unique_expections[-1]
-
-    print("r_expection", r_expection)
+    expections = list(set(expections))
+    _expections_random = []
+    for _expections in expections:
+        _expections_random.append(random.sample(_expections.split(" | "), 1)[0])
+    r_expection = ", ".join(_expections_random[:-1])
+    r_expection += " và " + _expections_random[-1]
     return r_expection
 
+def generate_pre_sentence():
+    return random.choice(configs.PRE_SENTENCE)
 
-def generate_expection_1(exp_vocab,  expections, anomalous_level = False):
-    r_expection = ""
-    _expections = expections
-    if _expections == [] or len(_expections) < 3:
-        _expections.extend(random.sample(exp_vocab, 3 - len(_expections)))
-
-    unique_expections = list(set(_expections))
-    r_expection = ", ".join(unique_expections[:-1])
-    r_expection += " và " + unique_expections[-1]
-    return r_expection
-
-
-def generate_final_expect(level):
-    r_expection = ""
-    post_sentence= "<LINKING_WORD> <OWN_LEVEL> chúc <NAME>"
-    if level in ['ông', 'bà']: 
-        r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_ONG_BA, 1)[-1]
-    else:
-        r_expection += f". {post_sentence} " + random.sample(configs.SPECIAL_EXPECTIONS_DEFAULT, 1)[-1]
-    return r_expection
-
-def generate_backup(name, level, expections):
-    vocab, wish_tet_list = [], []
-    try:
-        if level == 'bạn':
-            wish_tet_list = configs.FRIEND_BACKUP_LIST
-        
-        elif level in ['anh', 'chị']:
-            name = f"{level} {name}"
-            wish_tet_list = configs.ANH_CHI_BACKUP_LIST
-
-        elif level in ['ông', 'bà']:
-            vocab = [
-                "sống lâu trăm tuổi",
-                "có thật nhiều sức khoẻ",
-                "hạnh phúc bên con cháu",
-                "có một cái tết vui vẻ",
-                "tuổi già hạnh phúc, bình yên",
-                "giữ gìn sức khỏe, hân hoan tuổi già",
-                "trẻ mãi không già"
-
-                ]
-            wish_tet_list = configs.ONG_BA_BACKUP_LIST
-
-        elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
-            name = f"{level} {name}"
-            wish_tet_list =  configs.COCHU_BACKUP_LIST   
-
-        elif level in ['bố', 'mẹ']:
-            wish_tet_list =  configs.BO_ME_BACKUP_LIST
-            name = level
-            if level == 'bố':
-                vocab = [
-                "ngày càng phong độ hơn",
-                "làm ăn phát tài hơn",
-                "kiếm được thật nhiều tiền"
-                ]
-            else:
-                vocab = [
-                "hạnh phúc ngập tràn",
-                "tươi trẻ hơn",
-                "ngày càng khỏe mạnh hơn",
-                "luôn luôn tươi trẻ",
-                "hạnh phúc bên bố và các con"
-                ]
-
-        if level in ['ông', 'bà']: 
-            r_expection = generate_expection(expections = expections, exp_vocab=vocab)
-        
-        else: 
-            r_expection = generate_expection(expections = expections, exp_vocab= configs.EXPECTIONS_DEFAULT + vocab)
-
-        wish_tet_list = random.choice(wish_tet_list)
-        wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
-    
-    except Exception as e:
-        logger.error(e)
-        r_expection = generate_expection(
-            expections = expections,
-            exp_vocab= configs.EXPECTIONS_DEFAULT + vocab,
-            anomalous_level = True)
-        wish_tet_list = random.choice(configs.BACKUP_LIST)
-        wish_tet_result = f"{random.sample(pre_sentence, 1)[-1]} {wish_tet_list}"
-    
-    wish_tet_result = wish_tet_result.replace("<EXPECT>", r_expection)
-    
-    return wish_tet_result
+def generate_post_sentence():
+    return random.choice(configs.POST_SENTENCE)
 
 
 def customize_search_result(result):
     customized_result = ""
-
     black_list_words = ["Thiên Chúa", "Chúa", "bổ ích"]
     black_list_character = [":"]
     sub_result_list = result.split(". ")
-
     _results = []
     for rs in sub_result_list:
         if len(re.findall(r"(?=("+'|'.join(black_list_words)+r"))", rs)) == 0 and len(re.findall(r"(?=("+'|'.join(black_list_character)+r"))", rs)) == 0:
             _results.append(rs)
-
     customized_result += ". ".join(_results)
     return customized_result
+
 
 class TetWishGenerator:
     
     def __init__(self, config, timeout = 30):
         self.config = config
         self.searcher = None
+        self.structure = ""
         self.set_up(config=config)
-        
-        
+            
     def set_up(self, config):
         self.searcher = GPTSearcher(
             config = config, 
             )
-        
-    def _generate_query(self, name,level,  expections):
-        ex_context = generate_expection_1(expections = expections, exp_vocab = configs.EXPECTIONS_DEFAULT)
-        generated_query = f"Tạo 1 lời chúc Tết 2023 ý nghĩa tới {name}, trong năm mới {level} {name} rất mong muốn {ex_context}"
+        self.structure = {
+            "PRE_SENTENCE": "",
+            "WISH_GENERAL": "",
+            "WISH_PERSONAL": "",
+            "WISH_PERSONAL_1": "",
+            "POST_SENTENCE": ""
+        }
+
+    def _generate_query(self, personlize_wish: PersonalWisher): 
+        # make more expections from datatbase
+        taker_expections = personlize_wish.taker_expections
+        special_expections = personlize_wish.special_expections
+        _expections = random.sample(special_expections, min(len(special_expections), 3 - len(taker_expections))) + taker_expections
+        _expection_query = ", ".join(_expections)
+        generated_query = f"Tạo 1 câu chúc Tết {random.sample(personlize_wish.nature_names, 1)[0]}, kỳ vọng có các từ có nội dung: '{_expection_query}'"
         return generated_query
 
-    def generate(self, name, level, expections = []):
-
-        resutls = []
-        result = ""
-        logger.debug(f"level {level}")
+    def _generate_person_wish(self, personlize_wish: PersonalWisher):
+        _structure = "<OWN_LEVEL> chúc <NAME> <EXPECT>"
         try:
-            if level != "" and level.strip() != "":
-                question_query = self._generate_query(name, level, expections)
-                result = self.searcher.search(query_text = question_query)
-                logger.debug(result)
-                result = result.replace(name, f"{level} {name}")
-                result = customize_search_result(result)
-                logger.debug(f"customize_search_result(result) {customize_search_result}")
-
-                result = f"{random.sample(pre_sentence, 1)[-1]} {result}"
-                if len(result.split(" "))<= 5:
-                    result = generate_backup(name, level, expections)
+            question_query = self._generate_query(personlize_wish)
+            result = self.searcher.search(query_text = question_query)
+            ## parashase result
+            result = pharaphase_search_result(result, personlize_wish)
+            logger.debug(f"name = {personlize_wish.name} | level = {personlize_wish.level} | taker_expections = {personlize_wish.taker_expections} |result: {result}")
             
+            if result == "":
+                expection = genernate_expection(personlize_wish)
+                _structure.replace("<EXPECT>", expection)
             else:
-                result = generate_backup(name, level, expections)
-
-            
-
-            resutls.append(result)
+                _structure = f"<OWN_LEVEL> {result}"
+        
         except Exception as e:
             logger.error(e)
-            result = generate_backup(name, level, expections)
+            _structure = "Chúc mừng năm mới!"
         
-        finally:
-            outputs = []
-            ## make more 2 result
-            for result in range(3 - len(resutls)):
-                resutls.append(generate_backup(name, level, expections))
-            
-            for result in resutls:
-                
-                if len(result.split(". ")) < 2:
-                    r_expection = generate_final_expect(level)
-                    result += r_expection
-                pharaphased_result = pharaphase_result(result, name, level)
-                result = post_processing(pharaphased_result)
-                
-                outputs.append(result)
-        return outputs
+        self.structure["WISH_PERSONAL"] = _structure
+    
+    def _generate_general_wish(self, personlize_wish: PersonalWisher):
+        _structure = random.choice(configs.GENERAL_WISH_STRUCTURE)
+        expection = genernate_expection(personlize_wish)
+        _structure = _structure.replace("<EXPECT>", expection)
+        self.structure["WISH_GENERAL"] = _structure
+
+    def _generate_person_wish_1(self, personlize_wish: PersonalWisher):
+        _structure = "<LINKING_WORD> <OWN_LEVEL> chúc <NAME> <EXPECT>"
+        _structure = _structure.replace(
+            "<LINKING_WORD>", 
+            random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,", "Điều nữa,"])
+        )
+        
+        expection = random.choice(configs.END_SPECIAL_EXPECTIONS)
+        _structure = _structure.replace("<EXPECT>", expection)
+        self.structure["WISH_PERSONAL_1"] = _structure
+
+        
+    def auto_generate(self, personlize_wish):
+        self.structure["PRE_SENTENCE"] = generate_pre_sentence()
+        self.structure["POST_SENTENCE"] = generate_post_sentence()
+        self._generate_general_wish(personlize_wish)
+        self._generate_person_wish_1(personlize_wish)
+        return self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
+    
+    def generate(self, personlize_wish: PersonalWisher):
+        resutls = []
+        _resutls = []
+        try:
+            self.structure["PRE_SENTENCE"] = generate_pre_sentence()
+            self.structure["POST_SENTENCE"] = generate_post_sentence()
+            self._generate_general_wish(personlize_wish)
+            self._generate_person_wish(personlize_wish)
+            self._generate_person_wish_1(personlize_wish)
+            result = self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
+            _resutls.append(result)
+
+        except Exception as e:
+            logger.error(e)
+            result = ["Chúc mừng năm mới!"] * 3 
+        
+        _resutls.append(self.auto_generate(personlize_wish))
+        _resutls.append(self.auto_generate(personlize_wish))
+
+
+        for rs in _resutls:
+            pharaphased_result = pharaphase_result(rs, personlize_wish)
+            rs = post_processing(pharaphased_result)
+            resutls.append(rs)
+        return resutls

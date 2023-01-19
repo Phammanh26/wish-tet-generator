@@ -1,2 +1,0 @@
-chúc <LEVEL_1> có một năm <EXPECT>
-chúc <LEVEL_1> năm mới <EXPECT>

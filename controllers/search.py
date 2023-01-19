@@ -1,6 +1,7 @@
 import json
 from loguru import logger
 import requests
+import re
 
 class GPTSearcher:
     def __init__(self, config):
@@ -43,12 +44,7 @@ class GPTSearcher:
     def search(self, query_text):
         result = ""
         _result = self._search(query_text)
-        _results = _result.split(" ")
-        for i in range(len(_results)):
-            if _results[i].lower() == "chúc":
-                _p = ["<OWN_LEVEL>"]
-                _results[i] = "chúc"
-                _p.extend(_results[i:])
-                result = " ".join(_p)
-                break
+        match = re.search('[c|C]húc(.+?)*', _result)
+        if match:
+            result = str(match.group(0))
         return result

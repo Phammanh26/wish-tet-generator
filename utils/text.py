@@ -1,5 +1,28 @@
 from fuzzywuzzy import fuzz
 import random
+import re
+from controllers.personalize import PersonalWisher
+
+def fix_error_gpt(result, level):
+    result = result.replace(f"sẽ được", "sẽ có được")
+    result = result.replace(f"luôn được", "sẽ có được")
+    result = result.replace(f"May {level}", f"Mong {level}")
+    result = result.replace(f"May {level}", f"Mong {level}")
+    result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
+    result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
+    result = result.replace(f"khỏe mạnh mẽ", f"khỏe mạnh")
+    result = result.replace(f"của tôi", f"của mình")
+    return result
+
+
+def pharaphase_search_result(result, personlize_wish: PersonalWisher):
+    result = fix_error_gpt(result, personlize_wish.level)
+    result = result.replace("Chúc mừng năm mới,", "")
+    result = result.replace("bạn", random.sample(personlize_wish.nature_names, 1)[0])
+    if personlize_wish.level != "mọi người":
+        result = result.replace("mọi người", random.sample(personlize_wish.nature_names, 1)[0])
+    result = result.replace("Chúc", "chúc")
+    return result
 
 def get_text_scores(q_text, v_texts):
     q_text = q_text.replace('\n', ' ').lower()
@@ -9,93 +32,58 @@ def get_text_scores(q_text, v_texts):
 
 def get_text_topk(q_text, v_texts, k=5):
     scores = get_text_scores(q_text, v_texts)
-    
     if not scores:
         return []
     text_scores = [(v_text, score) for v_text, score in zip(v_texts, scores)]
     scores = sorted(text_scores, key= lambda x: x[1], reverse=True)
-    return scores[:k] 
+    outputs = []
+    for s in scores[:k] :
+        outputs.append(random.choice(s[0].split(" | ")))
+    return outputs
 
 
-def pharaphase_result(result, name, level):
-    own_level = [""]
-    if level == 'bạn':
-        own_level.extend(["mình", "tớ", "tui", "tôi"])
-        result = result.replace("<NAME>", random.choice([name, level]))
-        result = result.replace("<LEVEL>", random.choice([name, level]))
+def pharaphase_result(result, personlize_wish: PersonalWisher): 
+    
+    if personlize_wish.level == "gia đình":
+        result = result.replace("<NAME> và", "")
+        result_ = result.split(". ")
+        result = ". ".join(result_[:-1])
         
-    elif level in ['anh', 'chị']:
-        own_level.extend(["em"])
-        result = result.replace("<LEVEL>", level)
-        result = result.replace("<NAME>", f"{level} {name}")
-        result = result.replace("bạn", f"{level}")
 
-
-    elif level in ['ông', 'bà']:
-        own_level.extend(["cháu"])
-        result = result.replace("<LEVEL>", level)
-        result = result.replace("<NAME>", f"")
-        result = result.replace(f"{name}", f"")
-        result = result.replace("bạn", f"{level}")
-
-
-    elif level in ['cô', 'dì', 'chú', 'bác','thím', 'mợ' , 'cậu']:
-        name = f"{level} {name}"
-        own_level.extend(["cháu"])
-        result = result.replace("<NAME>", f"{level} {name}")
-        result = result.replace("<LEVEL>", random.choice([f"{level} {name}", f"{level}"]))
-        result = result.replace("bạn", f"{level}")
-
-    elif level in ['bố', 'mẹ']:
-        name = level
-        own_level.extend(["con"])
-        result = result.replace("<NAME>", f"{level}")
-        result = result.replace("bạn", f"{level}")
-
-        if level.strip() != "":
-            result = result.replace("<LEVEL>", level)
-      
-    else:
-        result = result.replace("<NAME>", f"{level}")
-        result = result.replace("<LEVEL>", level)
-        result = result.replace("bạn", f"{level}")
-
-    result = result.replace("<LINKING_WORD>", random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,"]))
-    result = result.replace("<LEVEL_1>", level)
-    result = result.replace("<OWN_LEVEL>", random.choice(own_level))
-    if level.strip() != "":
-        result = result.replace(f"{level} {level}", level)
-    if name.strip() != "":
-        result = result.replace(f"{name} {name}", name)
-    result = result.replace(f"sẽ được", "sẽ có được")
-    result = result.replace(f"luôn được", "sẽ có được")
-    result = result.replace(f"May {level}", f"Mong {level}")
-    result = result.replace(f"May {level}", f"Mong {level}")
-    result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
-    result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
-    result = result.replace(f"khỏe mạnh mẽ", f"khỏe mạnh")
-    
-    
-    result = result.replace(f"!.", f".")
-    result = result.replace(f"..", f".")
-    
+    result = result.replace("<NAME>", random.sample(personlize_wish.nature_names, 1)[0])
+    result = result.replace("<OWN_LEVEL>", personlize_wish.own_level)
+    result = add_icon(result)
     return  result
+
+
+def add_icon(text):
+    icons = ["", "🎉","🙂", "😀", "😄", "😊", "🤑", "🤓", "☘", "🍀", "🍃", "❤", "💕", "💞", "💓", "💗", "💖", "💘", "💝", "💟", "❣", "💕", "💞", "💓", "💗", "💖", "💘", "💝", "💟", "💜", "💛", "❣", "💰", " 💵", "💲", "🌟", "⭐", "🌟", "✨", "💷", "💶", "💴", "💵", "💸", "💪"]
+    texts = text.split(". ")
+    _texts = []
+    _num_duplicates = [0,1,2,3]
+    for text in texts[:-1]:
+        if text[-1] not in  [".", "!"]:
+            _num = random.sample(_num_duplicates, 1)[0]
+            _num_duplicates.remove(_num)
+            _texts.append(text + "".join([random.choice(icons)]*_num))
+    texts = _texts + [texts[-1]]
+    return ". ".join(texts)
+
 
 def pre_processing(text):
     pass
 
 
-import re
 def post_processing(text):
     # tạo đoạn văn formal or not?
     text = text.replace("\n", "")
     text = re.sub(' +', ' ', text)
 
-    if text[-1] != ".":
+    text = text.replace(f"!.", f".")
+    text = text.replace(f"..", f".")
+    if text[-1] not in  [".", "!"]:
         text = text + "."
     return text
 
-def pharaphase_wishing_text(text):
-    # tạo đoạn văn formal or not?
-    
+def pharaphase_wishing_text(text):    
     pass
