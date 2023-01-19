@@ -117,7 +117,7 @@ class TetWishGenerator:
         self.structure["POST_SENTENCE"] = generate_post_sentence()
         self._generate_general_wish(personlize_wish)
         self._generate_person_wish_1(personlize_wish)
-        return self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
+        return self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
     
     def generate(self, personlize_wish: PersonalWisher):
         resutls = []
@@ -137,7 +137,6 @@ class TetWishGenerator:
         
         _resutls.append(self.auto_generate(personlize_wish))
         _resutls.append(self.auto_generate(personlize_wish))
-
 
         for rs in _resutls:
             pharaphased_result = pharaphase_result(rs, personlize_wish)
