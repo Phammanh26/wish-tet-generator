@@ -139,6 +139,7 @@ class TetWishGenerator:
         _resutls.append(self.auto_generate(personlize_wish))
         _resutls.append(self.auto_generate(personlize_wish))
 
+        
         for rs in _resutls:
             pharaphased_result = pharaphase_result(rs, personlize_wish)
             rs = post_processing(pharaphased_result)
