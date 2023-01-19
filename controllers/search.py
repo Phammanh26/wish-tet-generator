@@ -13,7 +13,6 @@ class GPTSearcher:
     def setup(self, config):
         self.host = config.host
         self.token = config.token
-        logger.info(f"host = {self.host}, token = {self.token}, timeout = {self.timeout}")
         
     def _search(self, query_text):
         result_search = ""            

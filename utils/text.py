@@ -49,13 +49,9 @@ def pharaphase_result(result, personlize_wish: PersonalWisher):
         result_ = result.split(". ")
         result = ". ".join(result_[:-1])
     
-    print(f"result: {result}")
-
     result = result.replace("<NAME>", random.sample(personlize_wish.nature_names, 1)[0])
     result = result.replace("<OWN_LEVEL>", personlize_wish.own_level)
     result = add_icon(result)
-
-    print(f"result: {result}")
     return  result
 
 

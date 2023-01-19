@@ -79,9 +79,7 @@ class TetWishGenerator:
             question_query = self._generate_query(personlize_wish)
             result = self.searcher.search(query_text = question_query)
             ## parashase result
-            result = pharaphase_search_result(result, personlize_wish)
-            logger.debug(f"name = {personlize_wish.name} | level = {personlize_wish.level} | taker_expections = {personlize_wish.taker_expections} |result: {result}")
-            
+            result = pharaphase_search_result(result, personlize_wish)            
             if result == "":
                 expection = genernate_expection(personlize_wish)
                 _structure.replace("<EXPECT>", expection)
@@ -117,7 +115,6 @@ class TetWishGenerator:
         self.structure["POST_SENTENCE"] = generate_post_sentence()
         self._generate_general_wish(personlize_wish)
         self._generate_person_wish_1(personlize_wish)
-        logger.debug(f"self.structure {self.structure}")
         return self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
     
     def generate(self, personlize_wish: PersonalWisher):
