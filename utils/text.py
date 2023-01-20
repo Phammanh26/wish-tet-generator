@@ -7,11 +7,14 @@ def fix_error_gpt(result, level):
     result = result.replace(f"sẽ được", "sẽ có được")
     result = result.replace(f"luôn được", "sẽ có được")
     result = result.replace(f"May {level}", f"Mong {level}")
+    result = result.replace(f"anh/chị", f"{level}")
     result = result.replace(f"May {level}", f"Mong {level}")
     result = result.replace(f"hạnh phúc bền vững", f"Hạnh phúc tràn đầy")
     result = result.replace(f"để yêu đời", f"luôn luôn yêu đời")
     result = result.replace(f"khỏe mạnh mẽ", f"khỏe mạnh")
     result = result.replace(f"của tôi", f"của mình")
+    
+    
     return result
 
 
@@ -31,14 +34,17 @@ def get_text_scores(q_text, v_texts):
     return scores
 
 def get_text_topk(q_text, v_texts, k=5):
+    outputs = []
+    
     scores = get_text_scores(q_text, v_texts)
     if not scores:
         return []
+    
     text_scores = [(v_text, score) for v_text, score in zip(v_texts, scores)]
     scores = sorted(text_scores, key= lambda x: x[1], reverse=True)
-    outputs = []
+    
     for s in scores[:k] :
-        outputs.append(random.choice(s[0].split(" | ")))
+        outputs.append(s[0])
     return outputs
 
 
@@ -75,15 +81,23 @@ def pre_processing(text):
     pass
 
 
+def upper_first_char(text):
+    return text[0].upper() + text[1:]
+
 def post_processing(text):
     # tạo đoạn văn formal or not?
     text = text.replace("\n", "")
     text = re.sub(' +', ' ', text)
-
+    text = text.replace(f"\"", f"")
+    text = text.replace(f"\\", f"")
     text = text.replace(f"!.", f".")
     text = text.replace(f"..", f".")
+    text = text.replace(f"  ", f" ")
+    
+    
     if text[-1] not in  [".", "!"]:
         text = text + "."
+    text = '. '.join(map(lambda s: upper_first_char(s), text.split('. ')))
     return text
 
 def pharaphase_wishing_text(text):    

@@ -56,13 +56,13 @@ class CustomForm(BaseModel):
 @limiter.limit("10/minute")
 async def tet_generate(data: CustomForm, request: Request):
     try:
-        personlize_wish = PersonalWisher(string.capwords(data.name), data.level.lower(), data.expections)
+        personlize_wish = PersonalWisher(string.capwords(data.name), data.level.lower(), list(set(data.expections)))
         generated_results = tetwish_generator.generate(personlize_wish)
             
     except Exception as e:
         logger.error(e)
         generated_results = ["Chúc mừng năm mới 2023!"]
-        
+
     logger.info(f"{data.level} | {data.expections} | {generated_results[0]}")
     return {
         "status": "success",

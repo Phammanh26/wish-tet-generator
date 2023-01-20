@@ -11,15 +11,16 @@ def genernate_expection(personlize_wish: PersonalWisher):
     expections = []
     for _expection in personlize_wish.taker_expections:
         _expections = get_text_topk(_expection, personlize_wish.general_expections, 3)
+        # print("_expections", _expections)
         expections.extend(_expections)
     
     if len(list(set(expections))) < 3:
-        expections.extend(random.sample(personlize_wish.general_expections, 5 - len(expections)))
+        expections.extend(random.sample(personlize_wish.general_expections, 3 - len(expections)))
 
-    expections = list(set(expections))
-    _expections_random = []
-    for _expections in expections:
+    _expections_random = []    
+    for _expections in list(set(expections)):
         _expections_random.append(random.sample(_expections.split(" | "), 1)[0])
+    
     r_expection = ", ".join(_expections_random[:-1])
     r_expection += " và " + _expections_random[-1]
     return r_expection
@@ -68,9 +69,15 @@ class TetWishGenerator:
         # make more expections from datatbase
         taker_expections = personlize_wish.taker_expections
         special_expections = personlize_wish.special_expections
-        _expections = random.sample(special_expections, min(len(special_expections), 3 - len(taker_expections))) + taker_expections
+        _special_expections = [random.sample(special_expection.split(" | "), 1)[0] for special_expection in special_expections]
+
+        if 3 - len(taker_expections) > 0:
+            _expections = random.sample(_special_expections, min(len(special_expections), 3 - len(taker_expections))) + taker_expections
+        else:
+            _expections = taker_expections
+
         _expection_query = ", ".join(_expections)
-        generated_query = f"Tạo 1 câu chúc Tết {random.sample(personlize_wish.nature_names, 1)[0]}, kỳ vọng có các từ có nội dung: '{_expection_query}'"
+        generated_query = f"Tạo 1 câu chúc Tết tới {random.sample(personlize_wish.nature_names, 1)[0]}, có nội dung tương tự: '{_expection_query}'"
         return generated_query
 
     def _generate_person_wish(self, personlize_wish: PersonalWisher):
