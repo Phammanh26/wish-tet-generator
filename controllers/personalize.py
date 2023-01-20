@@ -70,8 +70,10 @@ class PersonalWisher():
 
         elif self.level in ['thầy giáo']:
             self.own_level = "em"
+            self.nature_names = ["Thầy"]
             # self.special_expections = configs.SPECIAL_THAYGIAO_EXPECTIONS
 
         elif self.level in ['cô giáo']:
             self.own_level = "em"
+            self.nature_names = ["Cô"]
             # self.special_expections = configs.SPECIAL_COGIAO_EXPECTIONS

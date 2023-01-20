@@ -93,8 +93,6 @@ def post_processing(text):
     text = text.replace(f"!.", f".")
     text = text.replace(f"..", f".")
     text = text.replace(f"  ", f" ")
-    
-    
     if text[-1] not in  [".", "!"]:
         text = text + "."
     text = '. '.join(map(lambda s: upper_first_char(s), text.split('. ')))

@@ -109,7 +109,7 @@ class TetWishGenerator:
         _structure = "<LINKING_WORD> <OWN_LEVEL> chúc <NAME> <EXPECT>"
         _structure = _structure.replace(
             "<LINKING_WORD>", 
-            random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,", "Điều nữa,"])
+            random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,", "Điều nữa,", "Năm nay, ", "Năm mới, "])
         )
         
         expection = random.choice(configs.END_SPECIAL_EXPECTIONS)
