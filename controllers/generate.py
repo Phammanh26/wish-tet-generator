@@ -11,7 +11,6 @@ def genernate_expection(personlize_wish: PersonalWisher):
     expections = []
     for _expection in personlize_wish.taker_expections:
         _expections = get_text_topk(_expection, personlize_wish.general_expections, 3)
-        # print("_expections", _expections)
         expections.extend(_expections)
     
     if len(list(set(expections))) < 3:
@@ -82,14 +81,18 @@ class TetWishGenerator:
 
     def _generate_person_wish(self, personlize_wish: PersonalWisher):
         _structure = "<OWN_LEVEL> chúc <NAME> <EXPECT>"
+        result = ""
         try:
-            question_query = self._generate_query(personlize_wish)
-            result = self.searcher.search(query_text = question_query)
-            ## parashase result
-            result = pharaphase_search_result(result, personlize_wish)            
+            if len(personlize_wish.taker_expections) > 0:
+                question_query = self._generate_query(personlize_wish)
+                result = self.searcher.search(query_text = question_query)
+                ## parashase result
+                result = pharaphase_search_result(result, personlize_wish)            
+            
             if result == "":
                 expection = genernate_expection(personlize_wish)
-                _structure.replace("<EXPECT>", expection)
+                _structure = _structure.replace("<EXPECT>", expection)
+            
             else:
                 _structure = f"<OWN_LEVEL> {result}"
         
@@ -106,7 +109,7 @@ class TetWishGenerator:
         self.structure["WISH_GENERAL"] = _structure
 
     def _generate_person_wish_1(self, personlize_wish: PersonalWisher):
-        _structure = "<LINKING_WORD> <OWN_LEVEL> chúc <NAME> <EXPECT>"
+        _structure = "<LINKING_WORD> <OWN_LEVEL> <SAME_WORD> chúc <NAME> <EXPECT>"
         _structure = _structure.replace(
             "<LINKING_WORD>", 
             random.choice(["Đặc biệt,", "Đặc biệt hơn,", "Một điều nữa,", "Điều nữa,", "Năm nay, ", "Năm mới, "])
@@ -122,7 +125,10 @@ class TetWishGenerator:
         self.structure["POST_SENTENCE"] = generate_post_sentence()
         self._generate_general_wish(personlize_wish)
         self._generate_person_wish_1(personlize_wish)
-        return self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
+
+        _text_part_3 =  ". " + self.structure["POST_SENTENCE"] if random.choice([0, 1]) else ""
+        _text_part_1 =  self.structure["PRE_SENTENCE"] +  " " if random.choice([0, 1])  else ""
+        return _text_part_1  + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL_1"] +_text_part_3
     
     def generate(self, personlize_wish: PersonalWisher):
         resutls = []
@@ -133,7 +139,12 @@ class TetWishGenerator:
             self._generate_general_wish(personlize_wish)
             self._generate_person_wish(personlize_wish)
             self._generate_person_wish_1(personlize_wish)
-            result = self.structure["PRE_SENTENCE"] + " " + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL"] + ". " + self.structure["WISH_PERSONAL_1"] + ". " + self.structure["POST_SENTENCE"]
+
+            _text_part_3 = ". " +  self.structure["POST_SENTENCE"] if random.choice([0, 1]) else ""
+            _text_part_1 =  self.structure["PRE_SENTENCE"]  + " " if random.choice([0, 1]) else ""
+
+            result = _text_part_1 + self.structure["WISH_GENERAL"] + ". " + self.structure["WISH_PERSONAL"] + ". " + self.structure["WISH_PERSONAL_1"]   + _text_part_3
+          
             _resutls.append(result)
 
         except Exception as e:

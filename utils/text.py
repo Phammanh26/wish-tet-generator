@@ -55,6 +55,7 @@ def pharaphase_result(result, personlize_wish: PersonalWisher):
         result_ = result.split(". ")
         result = ". ".join(result_[:-1])
     
+    result = result.replace("<SAME_WORD>", "cũng" if random.choice([0,1]) else "")
     result = result.replace("<NAME>", random.sample(personlize_wish.nature_names, 1)[0])
     result = result.replace("<OWN_LEVEL>", personlize_wish.own_level)
     result = add_icon(result)
@@ -66,6 +67,7 @@ def add_icon(text):
     texts = text.split(". ")
     _texts = []
     _num_duplicates = [0,1,2,3]
+    
     for text in texts:
         if text[-1] not in  [".", "!"]:
             _num = random.sample(_num_duplicates, 1)[0]
