@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tet-wish-deployment
+  labels:
+    app: tet-wish
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tet-wish
+  template:
+    metadata:
+      labels:
+        app: tet-wish
+    spec:
+      containers:
+      - name: tet-wish
+        image: pham2604/tet-wish-2023:0.1.3
+        ports:
+        - containerPort: 8000

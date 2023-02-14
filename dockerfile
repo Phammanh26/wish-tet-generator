@@ -1,10 +1,20 @@
-# TODO
-# https://www.google.com/search?q=dockerfile+fastapi&sxsrf=AJOqlzWi9elQLemyAvWdQDjepLy051vmQQ%3A1673162714194&ei=2m-6Y5G9C-6C2roPm42siAs&ved=0ahUKEwiRkuzpuLf8AhVugVYBHZsGC7EQ4dUDCA8&uact=5&oq=dockerfile+fastapi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyCAgAEIAEEMsBMggIABCABBDLATIGCAAQFhAeMggIABAWEB4QCjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoKCAAQRxDWBBCwAzoHCAAQsAMQQzoECAAQQ0oECEEYAEoECEYYAFCeBFjxEmCJFWgBcAF4AIAB8QGIAZULkgEFMC41LjOYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp
-# 
+# Use a base image with a compatible OS
+FROM python:3.9 as build
+
+WORKDIR /code
+COPY requirements.txt /code/requirements.txt
+
+RUN pip install --upgrade -r /code/requirements.txt 
+
+COPY . . 
+
+# Use a base image with the same version of Python
 FROM python:3.9
 WORKDIR /code
-COPY ./requirements.txt /code/requirements.txt
+COPY --from=build /code /code
 
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt 
-COPY . . 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+RUN pip install --upgrade -r /code/requirements.txt 
+
+# RUN pip install uvicorn
+# RUN echo $PATH
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
